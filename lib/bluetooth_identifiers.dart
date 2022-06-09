@@ -1,8 +1,4 @@
+library bluetooth_identifiers;
 
-import 'bluetooth_identifiers_platform_interface.dart';
-
-class BluetoothIdentifiers {
-  Future<String?> getPlatformVersion() {
-    return BluetoothIdentifiersPlatform.instance.getPlatformVersion();
-  }
-}
+export 'package:bluetooth_identifiers/bluetooth_identifiers.dart';
+export 'package:bluetooth_identifiers/src/uuid_allocation.dart';
