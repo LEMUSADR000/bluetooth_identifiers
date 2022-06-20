@@ -1,6 +1,6 @@
 name: bluetooth_identifiers
 description: Codification of Bluetooth specificiers for manufacturer & service data.
-version: 0.0.1
+version: 1.0.0
 homepage:
 
 environment:
