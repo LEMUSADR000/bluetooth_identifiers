@@ -1,12 +1,11 @@
 import 'dart:typed_data';
 
 abstract class Bytes {
-  static int hexFromBytes(
+  static int uInt16FromBytes(
     Uint8List bytes, {
-    Endian endianness = Endian.little,
-  }) {
-    assert(bytes.length == 2, 'bytes length must be 2');
-
-    return bytes.buffer.asByteData().getUint16(0, endianness);
-  }
+    required int start,
+    int? end,
+    required Endian endianness,
+  }) =>
+      bytes.sublist(start, end).buffer.asByteData().getUint16(0, endianness);
 }
