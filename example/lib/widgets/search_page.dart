@@ -1,6 +1,3 @@
-import 'dart:typed_data';
-
-import 'package:bluetooth_identifiers/bluetooth_identifiers.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -39,13 +36,7 @@ class DigestSearchPageState extends State<DigestSearchPage> {
         final dynamic digest;
 
         try {
-          if (term[0] == 'b') {
-            final List<String> sub = term.substring(1).split('');
-            final List<int> rawBytes =
-                sub.map((e) => int.parse(e)).toList(growable: false);
-            digest = Uint8List.fromList(rawBytes);
-            Bytes.uInt16FromBytes(digest, start: 0, endianness: Endian.little);
-          } else if (term.length >= 2 && term.substring(0, 2) == '0x') {
+          if (term.length >= 2 && term.substring(0, 2) == '0x') {
             digest = term.substring(2);
             int.parse(digest, radix: 16);
           } else {
@@ -175,8 +166,8 @@ class TextFieldBarState extends State<TextFieldBar> {
           triggerMode: TooltipTriggerMode.tap,
           margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
           padding: EdgeInsets.all(5),
-          message: 'Input a raw integer, hex (i.e. 0x0000 ), or bytes '
-              '(i.e. b0000)',
+          message:
+              'Input an unsigned decimal (0 to 65535) or 16-bit hexadecimal (0x0000 to 0xFFFF)',
           child: Icon(Icons.help),
         )
       ],

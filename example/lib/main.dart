@@ -1,5 +1,3 @@
-import 'dart:typed_data';
-
 import 'package:bluetooth_identifiers/bluetooth_identifiers.dart';
 import 'package:bluetooth_identifiers_example/widgets/fixed_size_tile.dart';
 import 'package:bluetooth_identifiers_example/widgets/search_page.dart';
@@ -121,12 +119,8 @@ class UUIDServiceIdentifiersPage extends StatelessWidget {
       searchDigestBuilder: (_, key) {
         final MapEntry<int, UUIDAllocation?> result;
 
-        if (key is Uint8List) {
-          result = BluetoothIdentifiers.uuidServiceIdentifiers
-              .entryForByteArray(key, start: 0);
-        } else if (key is String) {
-          result = BluetoothIdentifiers.uuidServiceIdentifiers
-              .entryForHex(key, radix: 16);
+        if (key is String) {
+          result = BluetoothIdentifiers.uuidServiceIdentifiers.entryForHex(key);
         } else if (key is int) {
           result = MapEntry(
             key,
@@ -199,12 +193,8 @@ class CompanyIdentifiersPage extends StatelessWidget {
       searchDigestBuilder: (_, key) {
         final MapEntry<int, String?> result;
 
-        if (key is Uint8List) {
-          result = BluetoothIdentifiers.companyIdentifiers
-              .entryForByteArray(key, start: 0);
-        } else if (key is String) {
-          result = BluetoothIdentifiers.companyIdentifiers
-              .entryForHex(key, radix: 16);
+        if (key is String) {
+          result = BluetoothIdentifiers.companyIdentifiers.entryForHex(key);
         } else if (key is int) {
           result = MapEntry(
             key,

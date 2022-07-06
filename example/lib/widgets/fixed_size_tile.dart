@@ -67,7 +67,7 @@ class FixedSizeTile extends StatelessWidget {
                     ),
                     alignment: Alignment.centerRight,
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      crossAxisAlignment: CrossAxisAlignment.end,
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         if (trailing!.key != null)
@@ -84,7 +84,8 @@ class FixedSizeTile extends StatelessWidget {
                             trailing!.value!,
                             textAlign: TextAlign.end,
                             style: trailingStyle?.copyWith(
-                                color: trailingStyle?.color?.withOpacity(0.5)),
+                              color: trailingStyle?.color?.withOpacity(0.5),
+                            ),
                           ),
                       ],
                     ),

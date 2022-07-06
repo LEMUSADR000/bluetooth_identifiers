@@ -1,2 +1,11 @@
-## [1.0.0] 06/20/2022
+## [1.0.0] 6/20/22
 * Initial release containing working example with MVP of project.
+
+## [1.0.1] 6/20/22
+* Some cleanup for initial release
+
+## [1.0.2] 6/20/22
+* CHANGELOG.md modifications
+
+## [1.0.3] 7/6/22
+* README updated with more helpful information.
