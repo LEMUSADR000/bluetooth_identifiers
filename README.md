@@ -5,7 +5,7 @@
 
 ---
 
-Codification of some `Assigned Numbers` which have been packaged neatly into a Flutter package for your convenience!  
+Codification of some `Assigned Numbers` from Bluetooth.com which have been packaged neatly into a Flutter package for your convenience!  
    
 
 
@@ -18,6 +18,8 @@ Codification of some `Assigned Numbers` which have been packaged neatly into a F
 Usage of this package is dead simple as it is simply a neatly wrapped set of two maps with some convenience extensions.
 
 ### 16-Bit Hexadecimal
+
+###### Using hex strings.
 
 ```dart
 final int key = int.parse('0x00E0', radix: 16); // Parse 16-bit hex in Dart using integer with radix 16
@@ -32,7 +34,7 @@ final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers[key];
 print(companyIdentifier); // 'Google'
 ```
 
-Using convenience map extension function.
+###### Using convenience map extension function.
 
 ```dart
 final UUIDAllocation uuidServiceID = BluetoothIdentifiers.uuidServiceIdentifiers
@@ -47,7 +49,7 @@ final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers
 print(companyIdentifier); // 'Google'
 ```
 
-What if I also need calculated key?
+###### What if I also need calculated key?
 
 ```dart
 final MapEntry<int, UUIDAllocation> uuidServiceIDEntry = BluetoothIdentifiers.uuidServiceIdentifiers
@@ -66,7 +68,7 @@ print(companyIdentifierEntry.value); // 'Google'
  
 ### Unsigned Decimal
 
-Unsigned decimals may also be used either in Dart hex notation or raw integer form for programmatic ease-of-use.
+###### Unsigned decimals may also be used either in Dart hex notation or raw integer form for programmatic ease-of-use.
 
 ```dart
 final UUIDAllocation uuidServiceId = BluetoothIdentifiers.uuidServiceIdentifiers[0x00E0];
@@ -79,7 +81,7 @@ final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers[0x00E0]
 print(companyIdentifier); // 'Google'
 ```
 
-which is exactly equivalent to 
+###### which is exactly equivalent to 
 
 ```dart
 final UUIDAllocation uuidServiceId = BluetoothIdentifiers.uuidServiceIdentifiers[224];
