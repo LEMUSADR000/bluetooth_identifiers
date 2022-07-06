@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+
+@immutable
 class UUIDAllocation {
   const UUIDAllocation({
     required this.type,
