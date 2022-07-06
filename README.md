@@ -19,6 +19,8 @@ Usage of this package is dead simple as it is simply a neatly wrapped set of two
 
 ### 16-Bit Hexadecimal
 
+Using hex strings.
+
 ```dart
 final int key = int.parse('0x00E0', radix: 16); // Parse 16-bit hex in Dart using integer with radix 16
 
