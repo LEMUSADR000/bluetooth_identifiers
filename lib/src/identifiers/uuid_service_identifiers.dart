@@ -1,5 +1,21 @@
 part of '../bluetooth_identifiers.dart';
 
+/// UUID service allocations sourced from https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf
+///
+/// From the above document:
+/*
+  The 16-bit UUID Numbers Document contains a list of 16-bit Universally
+  Unique Identifier (UUID) values, previously available on other webpages on
+  bluetooth.com. The 16-bit UUID Numbers Document is updated when new values
+  are assigned.
+
+  All Assigned Numbers in this document are normative. All other materials
+  contained on this document are informative only.
+
+  Authoritative compliance information is contained in the applicable
+  Bluetooth specification.
+ */
+///
 const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
   0x0001: UUIDAllocation(
     type: 'Protocol Identifier',

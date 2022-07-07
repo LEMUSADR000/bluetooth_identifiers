@@ -1,11 +1,23 @@
 <p align="center">
-<a href="https://pub.dev/packages/bluetooth_identifiers"><img src="https://img.shields.io/pub/v/bluetooth_identifiers.svg" alt="Pub"></a>
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
+    <a href="https://pub.dev/packages/bluetooth_identifiers">
+        <img src="https://img.shields.io/pub/v/bluetooth_identifiers.svg" alt="Pub">
+    </a>
+    <a href="https://github.com/LEMUSADR000/bluetooth_identifiers/blob/main/LICENSE">
+        <img alt="License" src="https://img.shields.io/github/license/LEMUSADR000/bluetooth_identifiers?logo=open-source-initiative&logoColor=white">
+    </a>
+    <a href="https://github.com/LEMUSADR000/bluetooth_identifiers">
+        <img alt="Code size" src="https://img.shields.io/github/languages/code-size/LEMUSADR000/bluetooth_identifiers?logo=github&logoColor=white">
+    </a>
+    <a href="https://github.com/LEMUSADR000/bluetooth_identifiers/issues">
+        <img alt="Open Issues" src="https://img.shields.io/github/issues/LEMUSADR000/bluetooth_identifiers?logo=github&logoColor=white">
+    </a>
 </p>
 
----
+<h1 align="center">
+    Bluetooth Identifiers
+</h1>
 
-Codification of some `Assigned Numbers` from Bluetooth.com which have been packaged neatly into a Flutter package for your convenience!  
+Codification of some `Assigned Numbers` from Bluetooth.com which have been packaged into a Flutter package for your convenience!  
    
 
 
@@ -15,63 +27,14 @@ Codification of some `Assigned Numbers` from Bluetooth.com which have been packa
 
 ## Usage
 
-Usage of this package is dead simple as it is simply a neatly wrapped set of two maps with some convenience extensions.
+Usage of this package is dead simple as it is a neatly wrapped set of maps with `int` key type.
 
-### 16-Bit Hexadecimal
+### Direct Fetching
 
-###### Using hex strings.
-
-```dart
-final int key = int.parse('0x00E0', radix: 16); // Parse 16-bit hex in Dart using integer with radix 16
-
-final UUIDAllocation uuidServiceId = BluetoothIdentifiers.uuidServiceIdentifiers[key];
-
-print(uuidServiceId); // null
-
-
-final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers[key];
-
-print(companyIdentifier); // 'Google'
-```
-
-###### Using convenience map extension function.
+Direct fetching may be done either via raw integer, or hex literal. 
 
 ```dart
-final UUIDAllocation uuidServiceID = BluetoothIdentifiers.uuidServiceIdentifiers
-  .elementForHex('0xFCF1');
-
-print(uuidServiceID); // UUIDAllocation(type: '16-bit UUID for Members', registrant: 'Google LLC')
-
-
-final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers
-  .elementForHex('0x00E0'); 
-
-print(companyIdentifier); // 'Google'
-```
-
-###### What if I also need calculated key?
-
-```dart
-final MapEntry<int, UUIDAllocation> uuidServiceIDEntry = BluetoothIdentifiers.uuidServiceIdentifiers
-  .entryForHex('0x00E0');
-
-print(uuidServiceIDEntry.key); // 224
-print(uuidServiceIDEntry.value); // null
-
-
-final MapEntry<int, String> companyIdentifierEntry = BluetoothIdentifiers.companyIdentifiers
-  .entryForHex('0x00E0');
-
-print(companyIdentifierEntry.key); // 224
-print(companyIdentifierEntry.value); // 'Google'
-```
- 
-### Unsigned Decimal
-
-###### Unsigned decimals may also be used either in Dart hex notation or raw integer form for programmatic ease-of-use.
-
-```dart
-final UUIDAllocation uuidServiceId = BluetoothIdentifiers.uuidServiceIdentifiers[0x00E0];
+final UUIDAllocation uuidServiceId = BluetoothIdentifiers.uuidServiceIdentifiers[64753];
 
 print(uuidServiceID); // UUIDAllocation(type: '16-bit UUID for Members', registrant: 'Google LLC')
 
@@ -81,16 +44,55 @@ final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers[0x00E0]
 print(companyIdentifier); // 'Google'
 ```
 
-###### which is exactly equivalent to 
+### Key Calculation
+
+Regular calculation of keys
+
+##### Calculating key from hex string example
+```dart
+final int key = int.parse('0x00E0', radix: 16);
+```
+
+##### Calculating key from byte list example
+```dart
+final int start = 0;
+final Uint8List bytes = Uint8List.fromList([0, 224]);
+
+final int key = bytes.buffer.asByteData().getUint16(start);
+```
+
+Instead of grinding away at calculating your own keys for the maps in order to follow general usage, the package 
+exposes simple Map extension functions which may be used to reduce a lot of tedious boiler-plate.
+
+### Convenience extensions
 
 ```dart
-final UUIDAllocation uuidServiceId = BluetoothIdentifiers.uuidServiceIdentifiers[224];
+final UUIDAllocation uuidServiceId = BluetoothIdentifiers.uuidServiceIdentifiers.elementForHex('0x00E0');
 
 print(uuidServiceID); // UUIDAllocation(type: '16-bit UUID for Members', registrant: 'Google LLC')
 
-final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers[224];
+
+final Uint8List bytes = Uint8List.fromList([0, 224]);
+final String companyIdentifier = BluetoothIdentifiers.companyIdentifiers.elementForByteArray(bytes);
 
 print(companyIdentifier); // 'Google'
+```
+
+What if I also need calculated key?
+
+```dart
+final MapEntry<int, UUIDAllocation> uuidServiceIDEntry = BluetoothIdentifiers.uuidServiceIdentifiers
+  .entryForHex('0xFCF1');
+
+print(uuidServiceIDEntry.key); // 64753
+print(uuidServiceIDEntry.value); // UUIDAllocation(type: '16-bit UUID for Members', registrant: 'Google LLC')
+
+final Uint8List bytes = Uint8List.fromList([0, 224]);
+final MapEntry<int, String> companyIdentifierEntry = BluetoothIdentifiers.companyIdentifiers
+  .entryForByteArray(bytes);
+
+print(companyIdentifierEntry.key); // 224
+print(companyIdentifierEntry.value); // 'Google'
 ```
 
 ## Dart Versions
