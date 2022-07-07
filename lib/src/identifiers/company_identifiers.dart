@@ -4,7 +4,8 @@ part of '../bluetooth_identifiers.dart';
 ///
 /// From the above webpage:
 /*
-  Each Bluetooth SIG member assigned a Company Identifier may use the assigned value for any/all of the following:
+  Each Bluetooth SIG member assigned a Company Identifier may use the assigned
+  value for any/all of the following:
 
   * LMP_CompID (refer to the Bluetooth® Core Specification)
   * Company Identifier Code used in Manufacturer Specific Data type used for EIR
@@ -19,7 +20,8 @@ part of '../bluetooth_identifiers.dart';
     HS or later)
   * TCS Company ID (refer to Telephony Control Protocol [WITHDRAWN])
 
-  Each of the adopted specifications listed can be found on the Adopted Specifications Page, unless it is otherwise indicated as withdrawn.
+  Each of the adopted specifications listed can be found on the Adopted
+  Specifications Page, unless it is otherwise indicated as withdrawn.
  */
 ///
 const Map<int, String> _companyIdentifiers = {
