@@ -9,3 +9,6 @@
 
 ## [1.0.3] 7/6/22
 * README updated with more helpful information.
+
+## [1.0.4] 7/6/22
+* Added support for calculating keys from unsigned bytes. Updated the documentation to cover change.
