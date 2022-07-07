@@ -9,8 +9,8 @@ part of '../bluetooth_identifiers.dart';
   bluetooth.com. The 16-bit UUID Numbers Document is updated when new values
   are assigned.
 
-  All Assigned Numbers in this document are normative. All other materials
-  contained on this document are informative only.
+  All Assigned Numbers in [the] document are normative. All other materials
+  contained on [the] document are informative only.
 
   Authoritative compliance information is contained in the applicable
   Bluetooth specification.
