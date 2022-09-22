@@ -1,6 +1,6 @@
 name: bluetooth_identifiers
 description: Codification of Bluetooth specificiers for manufacturer & service data.
-version: 1.0.4
+version: 1.0.5
 repository: https://github.com/LEMUSADR000/bluetooth_identifiers
 homepage: https://github.com/LEMUSADR000/bluetooth_identifiers
 issue_tracker: https://github.com/LEMUSADR000/bluetooth_identifiers/issues
