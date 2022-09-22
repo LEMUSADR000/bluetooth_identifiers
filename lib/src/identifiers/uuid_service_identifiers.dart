@@ -3,18 +3,17 @@ part of '../bluetooth_identifiers.dart';
 /// UUID service allocations sourced from https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf
 ///
 /// From the above document:
-/*
-  The 16-bit UUID Numbers Document contains a list of 16-bit Universally
-  Unique Identifier (UUID) values, previously available on other webpages on
-  bluetooth.com. The 16-bit UUID Numbers Document is updated when new values
-  are assigned.
-
-  All Assigned Numbers in [the] document are normative. All other materials
-  contained on [the] document are informative only.
-
-  Authoritative compliance information is contained in the applicable
-  Bluetooth specification.
- */
+///
+///  The 16-bit UUID Numbers Document contains a list of 16-bit Universally
+/// Unique Identifier (UUID) values, previously available on other webpages on
+/// bluetooth.com. The 16-bit UUID Numbers Document is updated when new values
+/// are assigned.
+///
+/// All Assigned Numbers in [the] document are normative. All other materials
+/// contained on [the] document are informative only.
+///
+/// Authoritative compliance information is contained in the applicable
+/// Bluetooth specification.
 ///
 const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
   0x0001: UUIDAllocation(
@@ -53,19 +52,19 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'Protocol Identifier',
     registrant: 'IP',
   ),
-  0x000A: UUIDAllocation(
+  0x000a: UUIDAllocation(
     type: 'Protocol Identifier',
     registrant: 'FTP',
   ),
-  0x000C: UUIDAllocation(
+  0x000c: UUIDAllocation(
     type: 'Protocol Identifier',
     registrant: 'HTTP',
   ),
-  0x000E: UUIDAllocation(
+  0x000e: UUIDAllocation(
     type: 'Protocol Identifier',
     registrant: 'WSP',
   ),
-  0x000F: UUIDAllocation(
+  0x000f: UUIDAllocation(
     type: 'Protocol Identifier',
     registrant: 'BNEP',
   ),
@@ -97,15 +96,15 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'Protocol Identifier',
     registrant: 'AVDTP',
   ),
-  0x001B: UUIDAllocation(
+  0x001b: UUIDAllocation(
     type: 'Protocol Identifier',
     registrant: 'CMTP',
   ),
-  0x001E: UUIDAllocation(
+  0x001e: UUIDAllocation(
     type: 'Protocol Identifier',
     registrant: 'MCAPControlChannel',
   ),
-  0x001F: UUIDAllocation(
+  0x001f: UUIDAllocation(
     type: 'Protocol Identifier',
     registrant: 'MCAPDataChannel',
   ),
@@ -157,27 +156,27 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'Service Classes and Profiles',
     registrant: 'CordlessTelephony',
   ),
-  0x110A: UUIDAllocation(
+  0x110a: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'AudioSource',
   ),
-  0x110B: UUIDAllocation(
+  0x110b: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'AudioSink',
   ),
-  0x110C: UUIDAllocation(
+  0x110c: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'A/V_RemoteControlTarget',
   ),
-  0x110D: UUIDAllocation(
+  0x110d: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'AdvancedAudioDistribution',
   ),
-  0x110E: UUIDAllocation(
+  0x110e: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'A/V_RemoteControl',
   ),
-  0x110F: UUIDAllocation(
+  0x110f: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'A/V_RemoteControlController',
   ),
@@ -221,27 +220,27 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'Service Classes and Profiles',
     registrant: 'ReferencePrinting',
   ),
-  0x111A: UUIDAllocation(
+  0x111a: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'Basic Imaging Profile',
   ),
-  0x111B: UUIDAllocation(
+  0x111b: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'ImagingResponder',
   ),
-  0x111C: UUIDAllocation(
+  0x111c: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'ImagingAutomaticArchive',
   ),
-  0x111D: UUIDAllocation(
+  0x111d: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'ImagingReferencedObjects',
   ),
-  0x111E: UUIDAllocation(
+  0x111e: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'Handsfree',
   ),
-  0x111F: UUIDAllocation(
+  0x111f: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'HandsfreeAudioGateway',
   ),
@@ -281,15 +280,15 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'Service Classes and Profiles',
     registrant: 'Common_ISDN_Access',
   ),
-  0x112D: UUIDAllocation(
+  0x112d: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'SIM_Access',
   ),
-  0x112E: UUIDAllocation(
+  0x112e: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'Phonebook Access - PCE',
   ),
-  0x112F: UUIDAllocation(
+  0x112f: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'Phonebook Access - PSE',
   ),
@@ -333,23 +332,23 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'Service Classes and Profiles',
     registrant: '3D Synchronization',
   ),
-  0x113A: UUIDAllocation(
+  0x113a: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'MPS Profile UUID',
   ),
-  0x113B: UUIDAllocation(
+  0x113b: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'MPS SC UUID',
   ),
-  0x113C: UUIDAllocation(
+  0x113c: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'CTN Access Service',
   ),
-  0x113D: UUIDAllocation(
+  0x113d: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'CTN Notification Service',
   ),
-  0x113E: UUIDAllocation(
+  0x113e: UUIDAllocation(
     type: 'Service Classes and Profiles',
     registrant: 'CTN Profile',
   ),
@@ -457,19 +456,19 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Service',
     registrant: 'Health Thermometer',
   ),
-  0x180A: UUIDAllocation(
+  0x180a: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Device Information',
   ),
-  0x180D: UUIDAllocation(
+  0x180d: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Heart Rate',
   ),
-  0x180E: UUIDAllocation(
+  0x180e: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Phone Alert Status',
   ),
-  0x180F: UUIDAllocation(
+  0x180f: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Battery',
   ),
@@ -509,27 +508,27 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Service',
     registrant: 'Location and Navigation',
   ),
-  0x181A: UUIDAllocation(
+  0x181a: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Environmental Sensing',
   ),
-  0x181B: UUIDAllocation(
+  0x181b: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Body Composition',
   ),
-  0x181C: UUIDAllocation(
+  0x181c: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'User Data',
   ),
-  0x181D: UUIDAllocation(
+  0x181d: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Weight Scale',
   ),
-  0x181E: UUIDAllocation(
+  0x181e: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Bond Management',
   ),
-  0x181F: UUIDAllocation(
+  0x181f: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Continuous Glucose Monitoring',
   ),
@@ -573,19 +572,19 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Service',
     registrant: 'Reconnection Configuration',
   ),
-  0x183A: UUIDAllocation(
+  0x183a: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Insulin Delivery',
   ),
-  0x183B: UUIDAllocation(
+  0x183b: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Binary Sensor',
   ),
-  0x183C: UUIDAllocation(
+  0x183c: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Emergency Configuration',
   ),
-  0x183E: UUIDAllocation(
+  0x183e: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Physical Activity Monitor',
   ),
@@ -617,27 +616,27 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Service',
     registrant: 'Generic Media Control',
   ),
-  0x184A: UUIDAllocation(
+  0x184a: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Constant Tone Extension',
   ),
-  0x184B: UUIDAllocation(
+  0x184b: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Telephone Bearer',
   ),
-  0x184C: UUIDAllocation(
+  0x184c: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Generic Telephone Bearer',
   ),
-  0x184D: UUIDAllocation(
+  0x184d: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Microphone Control',
   ),
-  0x184E: UUIDAllocation(
+  0x184e: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Audio Stream Control',
   ),
-  0x184F: UUIDAllocation(
+  0x184f: UUIDAllocation(
     type: 'GATT Service',
     registrant: 'Broadcast Audio Scan',
   ),
@@ -737,23 +736,23 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Unit',
     registrant: 'magnetic field strength (ampere per metre)',
   ),
-  0x271A: UUIDAllocation(
+  0x271a: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'amount concentration (mole per cubic metre)',
   ),
-  0x271B: UUIDAllocation(
+  0x271b: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'mass concentration (kilogram per cubic metre)',
   ),
-  0x271C: UUIDAllocation(
+  0x271c: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'luminance (candela per square metre)',
   ),
-  0x271D: UUIDAllocation(
+  0x271d: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'refractive index',
   ),
-  0x271E: UUIDAllocation(
+  0x271e: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'relative permeability',
   ),
@@ -797,27 +796,27 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Unit',
     registrant: 'capacitance (farad)',
   ),
-  0x272A: UUIDAllocation(
+  0x272a: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'electric resistance (ohm)',
   ),
-  0x272B: UUIDAllocation(
+  0x272b: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'electric conductance (siemens)',
   ),
-  0x272C: UUIDAllocation(
+  0x272c: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'magnetic flux (weber)',
   ),
-  0x272D: UUIDAllocation(
+  0x272d: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'magnetic flux density (tesla)',
   ),
-  0x272E: UUIDAllocation(
+  0x272e: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'inductance (henry)',
   ),
-  0x272F: UUIDAllocation(
+  0x272f: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'Celsius temperature (degree Celsius)',
   ),
@@ -885,27 +884,27 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Unit',
     registrant: 'thermal conductivity (watt per metre kelvin)',
   ),
-  0x274A: UUIDAllocation(
+  0x274a: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'energy density (joule per cubic metre)',
   ),
-  0x274B: UUIDAllocation(
+  0x274b: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'electric field strength (volt per metre)',
   ),
-  0x274C: UUIDAllocation(
+  0x274c: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'electric charge density (coulomb per cubic metre)',
   ),
-  0x274D: UUIDAllocation(
+  0x274d: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'surface charge density (coulomb per square metre)',
   ),
-  0x274E: UUIDAllocation(
+  0x274e: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'electric flux density (coulomb per square metre)',
   ),
-  0x274F: UUIDAllocation(
+  0x274f: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'permittivity (farad per metre)',
   ),
@@ -1009,151 +1008,151 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Unit',
     registrant: 'logarithmic radio quantity (bel)',
   ),
-  0x27A0: UUIDAllocation(
+  0x27a0: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'length (yard)',
   ),
-  0x27A1: UUIDAllocation(
+  0x27a1: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'length (parsec)',
   ),
-  0x27A2: UUIDAllocation(
+  0x27a2: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'length (inch)',
   ),
-  0x27A3: UUIDAllocation(
+  0x27a3: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'length (foot)',
   ),
-  0x27A4: UUIDAllocation(
+  0x27a4: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'length (mile)',
   ),
-  0x27A5: UUIDAllocation(
+  0x27a5: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'pressure (pound-force per square inch)',
   ),
-  0x27A6: UUIDAllocation(
+  0x27a6: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'velocity (kilometre per hour)',
   ),
-  0x27A7: UUIDAllocation(
+  0x27a7: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'velocity (mile per hour)',
   ),
-  0x27A8: UUIDAllocation(
+  0x27a8: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'angular velocity (revolution per minute)',
   ),
-  0x27A9: UUIDAllocation(
+  0x27a9: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'energy (gram calorie)',
   ),
-  0x27AA: UUIDAllocation(
+  0x27aa: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'energy (kilogram calorie)',
   ),
-  0x27AB: UUIDAllocation(
+  0x27ab: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'energy (kilowatt hour)',
   ),
-  0x27AC: UUIDAllocation(
+  0x27ac: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'thermodynamic temperature (degree Fahrenheit)',
   ),
-  0x27AD: UUIDAllocation(
+  0x27ad: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'percentage',
   ),
-  0x27AE: UUIDAllocation(
+  0x27ae: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'per mille',
   ),
-  0x27AF: UUIDAllocation(
+  0x27af: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'period (beats per minute)',
   ),
-  0x27B0: UUIDAllocation(
+  0x27b0: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'electric charge (ampere hours)',
   ),
-  0x27B1: UUIDAllocation(
+  0x27b1: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'mass density (milligram per decilitre)',
   ),
-  0x27B2: UUIDAllocation(
+  0x27b2: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'mass density (millimole per litre)',
   ),
-  0x27B3: UUIDAllocation(
+  0x27b3: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'time (year)',
   ),
-  0x27B4: UUIDAllocation(
+  0x27b4: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'time (month)',
   ),
-  0x27B5: UUIDAllocation(
+  0x27b5: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'concentration (count per cubic metre)',
   ),
-  0x27B6: UUIDAllocation(
+  0x27b6: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'irradiance (watt per square metre)',
   ),
-  0x27B7: UUIDAllocation(
+  0x27b7: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'milliliter (per kilogram per minute)',
   ),
-  0x27B8: UUIDAllocation(
+  0x27b8: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'mass (pound)',
   ),
-  0x27B9: UUIDAllocation(
+  0x27b9: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'metabolic equivalent',
   ),
-  0x27BA: UUIDAllocation(
+  0x27ba: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'step (per minute)',
   ),
-  0x27BC: UUIDAllocation(
+  0x27bc: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'stroke (per minute)',
   ),
-  0x27BD: UUIDAllocation(
+  0x27bd: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'pace (kilometre per minute)',
   ),
-  0x27BE: UUIDAllocation(
+  0x27be: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'luminous efficacy (lumen per watt)',
   ),
-  0x27BF: UUIDAllocation(
+  0x27bf: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'luminous energy (lumen hour)',
   ),
-  0x27C0: UUIDAllocation(
+  0x27c0: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'luminous exposure (lux hour)',
   ),
-  0x27C1: UUIDAllocation(
+  0x27c1: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'mass flow (gram per second)',
   ),
-  0x27C2: UUIDAllocation(
+  0x27c2: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'volume flow (litre per second)',
   ),
-  0x27C3: UUIDAllocation(
+  0x27c3: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'sound pressure (decibel)',
   ),
-  0x27C4: UUIDAllocation(
+  0x27c4: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'parts per million',
   ),
-  0x27C5: UUIDAllocation(
+  0x27c5: UUIDAllocation(
     type: 'GATT Unit',
     registrant: 'parts per billion',
   ),
@@ -1213,3871 +1212,3871 @@ const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
     type: 'GATT Descriptor',
     registrant: 'Number of Digitals',
   ),
-  0x290A: UUIDAllocation(
+  0x290a: UUIDAllocation(
     type: 'GATT Descriptor',
     registrant: 'Value Trigger Setting',
   ),
-  0x290B: UUIDAllocation(
+  0x290b: UUIDAllocation(
     type: 'GATT Descriptor',
     registrant: 'Environmental Sensing Configuration',
   ),
-  0x290C: UUIDAllocation(
+  0x290c: UUIDAllocation(
     type: 'GATT Descriptor',
     registrant: 'Environmental Sensing Measurement',
   ),
-  0x290D: UUIDAllocation(
+  0x290d: UUIDAllocation(
     type: 'GATT Descriptor',
     registrant: 'Environmental Sensing Trigger Setting',
   ),
-  0x290E: UUIDAllocation(
+  0x290e: UUIDAllocation(
     type: 'GATT Descriptor',
     registrant: 'Time Trigger Setting',
   ),
-  0x290F: UUIDAllocation(
+  0x290f: UUIDAllocation(
     type: 'GATT Descriptor',
     registrant: 'Complete BR-EDR Transport Block Data',
   ),
-  0x2A00: UUIDAllocation(
+  0x2a00: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Device Name',
   ),
-  0x2A01: UUIDAllocation(
+  0x2a01: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Appearance',
   ),
-  0x2A02: UUIDAllocation(
+  0x2a02: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Peripheral Privacy Flag',
   ),
-  0x2A03: UUIDAllocation(
+  0x2a03: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Reconnection Address',
   ),
-  0x2A04: UUIDAllocation(
+  0x2a04: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Peripheral Preferred Connection Parameters',
   ),
-  0x2A05: UUIDAllocation(
+  0x2a05: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Service Changed',
   ),
-  0x2A06: UUIDAllocation(
+  0x2a06: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Alert Level',
   ),
-  0x2A07: UUIDAllocation(
+  0x2a07: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Tx Power Level',
   ),
-  0x2A08: UUIDAllocation(
+  0x2a08: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Date Time',
   ),
-  0x2A09: UUIDAllocation(
+  0x2a09: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Day of Week',
   ),
-  0x2A0A: UUIDAllocation(
+  0x2a0a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Day Date Time',
   ),
-  0x2A0C: UUIDAllocation(
+  0x2a0c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Exact Time 256',
   ),
-  0x2A0D: UUIDAllocation(
+  0x2a0d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'DST Offset',
   ),
-  0x2A0E: UUIDAllocation(
+  0x2a0e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Zone',
   ),
-  0x2A0F: UUIDAllocation(
+  0x2a0f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Local Time Information',
   ),
-  0x2A11: UUIDAllocation(
+  0x2a11: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time with DST',
   ),
-  0x2A12: UUIDAllocation(
+  0x2a12: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Accuracy',
   ),
-  0x2A13: UUIDAllocation(
+  0x2a13: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Source',
   ),
-  0x2A14: UUIDAllocation(
+  0x2a14: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Reference Time Information',
   ),
-  0x2A16: UUIDAllocation(
+  0x2a16: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Update Control Point',
   ),
-  0x2A17: UUIDAllocation(
+  0x2a17: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Update State',
   ),
-  0x2A18: UUIDAllocation(
+  0x2a18: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Glucose Measurement',
   ),
-  0x2A19: UUIDAllocation(
+  0x2a19: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Battery Level',
   ),
-  0x2A1C: UUIDAllocation(
+  0x2a1c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature Measurement',
   ),
-  0x2A1D: UUIDAllocation(
+  0x2a1d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature Type',
   ),
-  0x2A1E: UUIDAllocation(
+  0x2a1e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Intermediate Temperature',
   ),
-  0x2A21: UUIDAllocation(
+  0x2a21: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Measurement Interval',
   ),
-  0x2A22: UUIDAllocation(
+  0x2a22: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Boot Keyboard Input Report',
   ),
-  0x2A23: UUIDAllocation(
+  0x2a23: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'System ID',
   ),
-  0x2A24: UUIDAllocation(
+  0x2a24: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Model Number String',
   ),
-  0x2A25: UUIDAllocation(
+  0x2a25: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Serial Number String',
   ),
-  0x2A26: UUIDAllocation(
+  0x2a26: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Firmware Revision String',
   ),
-  0x2A27: UUIDAllocation(
+  0x2a27: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Hardware Revision String',
   ),
-  0x2A28: UUIDAllocation(
+  0x2a28: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Software Revision String',
   ),
-  0x2A29: UUIDAllocation(
+  0x2a29: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Manufacturer Name String',
   ),
-  0x2A2A: UUIDAllocation(
+  0x2a2a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IEEE 11073-20601 Regulatory Certification Data List',
   ),
-  0x2A2B: UUIDAllocation(
+  0x2a2b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Current Time',
   ),
-  0x2A31: UUIDAllocation(
+  0x2a31: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Scan Refresh',
   ),
-  0x2A32: UUIDAllocation(
+  0x2a32: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Boot Keyboard Output Report',
   ),
-  0x2A33: UUIDAllocation(
+  0x2a33: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Boot Mouse Input Report',
   ),
-  0x2A34: UUIDAllocation(
+  0x2a34: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Glucose Measurement Context',
   ),
-  0x2A35: UUIDAllocation(
+  0x2a35: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Blood Pressure Measurement',
   ),
-  0x2A36: UUIDAllocation(
+  0x2a36: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Intermediate Cuff Pressure',
   ),
-  0x2A37: UUIDAllocation(
+  0x2a37: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Heart Rate Measurement',
   ),
-  0x2A38: UUIDAllocation(
+  0x2a38: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Body Sensor Location',
   ),
-  0x2A39: UUIDAllocation(
+  0x2a39: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Heart Rate Control Point',
   ),
-  0x2A3F: UUIDAllocation(
+  0x2a3f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Alert Status',
   ),
-  0x2A40: UUIDAllocation(
+  0x2a40: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Ringer Control Point',
   ),
-  0x2A41: UUIDAllocation(
+  0x2a41: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Ringer Setting',
   ),
-  0x2A42: UUIDAllocation(
+  0x2a42: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Alert Category ID Bit Mask',
   ),
-  0x2A43: UUIDAllocation(
+  0x2a43: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Alert Category ID',
   ),
-  0x2A44: UUIDAllocation(
+  0x2a44: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Alert Notification Control Point',
   ),
-  0x2A45: UUIDAllocation(
+  0x2a45: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Unread Alert Status',
   ),
-  0x2A46: UUIDAllocation(
+  0x2a46: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'New Alert',
   ),
-  0x2A47: UUIDAllocation(
+  0x2a47: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported New Alert Category',
   ),
-  0x2A48: UUIDAllocation(
+  0x2a48: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported Unread Alert Category',
   ),
-  0x2A49: UUIDAllocation(
+  0x2a49: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Blood Pressure Feature',
   ),
-  0x2A4A: UUIDAllocation(
+  0x2a4a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'HID Information',
   ),
-  0x2A4B: UUIDAllocation(
+  0x2a4b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Report Map',
   ),
-  0x2A4C: UUIDAllocation(
+  0x2a4c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'HID Control Point',
   ),
-  0x2A4D: UUIDAllocation(
+  0x2a4d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Report',
   ),
-  0x2A4E: UUIDAllocation(
+  0x2a4e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Protocol Mode',
   ),
-  0x2A4F: UUIDAllocation(
+  0x2a4f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Scan Interval Window',
   ),
-  0x2A50: UUIDAllocation(
+  0x2a50: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'PnP ID',
   ),
-  0x2A51: UUIDAllocation(
+  0x2a51: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Glucose Feature',
   ),
-  0x2A52: UUIDAllocation(
+  0x2a52: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Record Access Control Point',
   ),
-  0x2A53: UUIDAllocation(
+  0x2a53: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'RSC Measurement',
   ),
-  0x2A54: UUIDAllocation(
+  0x2a54: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'RSC Feature',
   ),
-  0x2A55: UUIDAllocation(
+  0x2a55: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'SC Control Point',
   ),
-  0x2A5A: UUIDAllocation(
+  0x2a5a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Aggregate',
   ),
-  0x2A5B: UUIDAllocation(
+  0x2a5b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CSC Measurement',
   ),
-  0x2A5C: UUIDAllocation(
+  0x2a5c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CSC Feature',
   ),
-  0x2A5D: UUIDAllocation(
+  0x2a5d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sensor Location',
   ),
-  0x2A5E: UUIDAllocation(
+  0x2a5e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'PLX Spot-Check Measurement',
   ),
-  0x2A5F: UUIDAllocation(
+  0x2a5f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'PLX Continuous Measurement',
   ),
-  0x2A60: UUIDAllocation(
+  0x2a60: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'PLX Features',
   ),
-  0x2A63: UUIDAllocation(
+  0x2a63: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Cycling Power Measurement',
   ),
-  0x2A64: UUIDAllocation(
+  0x2a64: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Cycling Power Vector',
   ),
-  0x2A65: UUIDAllocation(
+  0x2a65: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Cycling Power Feature',
   ),
-  0x2A66: UUIDAllocation(
+  0x2a66: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Cycling Power Control Point',
   ),
-  0x2A67: UUIDAllocation(
+  0x2a67: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Location and Speed',
   ),
-  0x2A68: UUIDAllocation(
+  0x2a68: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Navigation',
   ),
-  0x2A69: UUIDAllocation(
+  0x2a69: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Position Quality',
   ),
-  0x2A6A: UUIDAllocation(
+  0x2a6a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'LN Feature',
   ),
-  0x2A6B: UUIDAllocation(
+  0x2a6b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'LN Control Point',
   ),
-  0x2A6C: UUIDAllocation(
+  0x2a6c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Elevation',
   ),
-  0x2A6D: UUIDAllocation(
+  0x2a6d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Pressure',
   ),
-  0x2A6E: UUIDAllocation(
+  0x2a6e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature',
   ),
-  0x2A6F: UUIDAllocation(
+  0x2a6f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Humidity',
   ),
-  0x2A70: UUIDAllocation(
+  0x2a70: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'True Wind Speed',
   ),
-  0x2A71: UUIDAllocation(
+  0x2a71: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'True Wind Direction',
   ),
-  0x2A72: UUIDAllocation(
+  0x2a72: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Apparent Wind Speed',
   ),
-  0x2A73: UUIDAllocation(
+  0x2a73: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Apparent Wind Direction',
   ),
-  0x2A74: UUIDAllocation(
+  0x2a74: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Gust Factor',
   ),
-  0x2A75: UUIDAllocation(
+  0x2a75: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Pollen Concentration',
   ),
-  0x2A76: UUIDAllocation(
+  0x2a76: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'UV Index',
   ),
-  0x2A77: UUIDAllocation(
+  0x2a77: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Irradiance',
   ),
-  0x2A78: UUIDAllocation(
+  0x2a78: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Rainfall',
   ),
-  0x2A79: UUIDAllocation(
+  0x2a79: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Wind Chill',
   ),
-  0x2A7A: UUIDAllocation(
+  0x2a7a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Heat Index',
   ),
-  0x2A7B: UUIDAllocation(
+  0x2a7b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Dew Point',
   ),
-  0x2A7D: UUIDAllocation(
+  0x2a7d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: ' Descriptor Value Changed',
   ),
-  0x2A7E: UUIDAllocation(
+  0x2a7e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Aerobic Heart Rate Lower Limit',
   ),
-  0x2A7F: UUIDAllocation(
+  0x2a7f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Aerobic Threshold',
   ),
-  0x2A80: UUIDAllocation(
+  0x2a80: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Age',
   ),
-  0x2A81: UUIDAllocation(
+  0x2a81: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Anaerobic Heart Rate Lower Limit',
   ),
-  0x2A82: UUIDAllocation(
+  0x2a82: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Anaerobic Heart Rate Upper Limit',
   ),
-  0x2A83: UUIDAllocation(
+  0x2a83: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Anaerobic Threshold',
   ),
-  0x2A84: UUIDAllocation(
+  0x2a84: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Aerobic Heart Rate Upper Limit',
   ),
-  0x2A85: UUIDAllocation(
+  0x2a85: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Date of Birth',
   ),
-  0x2A86: UUIDAllocation(
+  0x2a86: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Date of Threshold Assessment',
   ),
-  0x2A87: UUIDAllocation(
+  0x2a87: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Email Address',
   ),
-  0x2A88: UUIDAllocation(
+  0x2a88: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fat Burn Heart Rate Lower Limit',
   ),
-  0x2A89: UUIDAllocation(
+  0x2a89: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fat Burn Heart Rate Upper Limit',
   ),
-  0x2A8A: UUIDAllocation(
+  0x2a8a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'First Name',
   ),
-  0x2A8B: UUIDAllocation(
+  0x2a8b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Five Zone Heart Rate Limits',
   ),
-  0x2A8C: UUIDAllocation(
+  0x2a8c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Gender',
   ),
-  0x2A8D: UUIDAllocation(
+  0x2a8d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Heart Rate Max',
   ),
-  0x2A8E: UUIDAllocation(
+  0x2a8e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Height',
   ),
-  0x2A8F: UUIDAllocation(
+  0x2a8f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Hip Circumference',
   ),
-  0x2A90: UUIDAllocation(
+  0x2a90: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Last Name',
   ),
-  0x2A91: UUIDAllocation(
+  0x2a91: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Maximum Recommended Heart Rate',
   ),
-  0x2A92: UUIDAllocation(
+  0x2a92: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Resting Heart Rate',
   ),
-  0x2A93: UUIDAllocation(
+  0x2a93: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sport Type for Aerobic and Anaerobic Thresholds',
   ),
-  0x2A94: UUIDAllocation(
+  0x2a94: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Three Zone Heart Rate Limits',
   ),
-  0x2A95: UUIDAllocation(
+  0x2a95: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Two Zone Heart Rate Limits',
   ),
-  0x2A96: UUIDAllocation(
+  0x2a96: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'VO2 Max',
   ),
-  0x2A97: UUIDAllocation(
+  0x2a97: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Waist Circumference',
   ),
-  0x2A98: UUIDAllocation(
+  0x2a98: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Weight',
   ),
-  0x2A99: UUIDAllocation(
+  0x2a99: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Database Change Increment',
   ),
-  0x2A9A: UUIDAllocation(
+  0x2a9a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'User Index',
   ),
-  0x2A9B: UUIDAllocation(
+  0x2a9b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Body Composition Feature',
   ),
-  0x2A9C: UUIDAllocation(
+  0x2a9c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Body Composition Measurement',
   ),
-  0x2A9D: UUIDAllocation(
+  0x2a9d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Weight Measurement',
   ),
-  0x2A9E: UUIDAllocation(
+  0x2a9e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Weight Scale Feature',
   ),
-  0x2A9F: UUIDAllocation(
+  0x2a9f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'User Control Point',
   ),
-  0x2AA0: UUIDAllocation(
+  0x2aa0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Magnetic Flux Density - 2D',
   ),
-  0x2AA1: UUIDAllocation(
+  0x2aa1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Magnetic Flux Density - 3D',
   ),
-  0x2AA2: UUIDAllocation(
+  0x2aa2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Language',
   ),
-  0x2AA3: UUIDAllocation(
+  0x2aa3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Barometric Pressure Trend',
   ),
-  0x2AA4: UUIDAllocation(
+  0x2aa4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bond Management Control Point',
   ),
-  0x2AA5: UUIDAllocation(
+  0x2aa5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bond Management Feature',
   ),
-  0x2AA6: UUIDAllocation(
+  0x2aa6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Central Address Resolution',
   ),
-  0x2AA7: UUIDAllocation(
+  0x2aa7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CGM Measurement',
   ),
-  0x2AA8: UUIDAllocation(
+  0x2aa8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CGM Feature',
   ),
-  0x2AA9: UUIDAllocation(
+  0x2aa9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CGM Status',
   ),
-  0x2AAA: UUIDAllocation(
+  0x2aaa: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CGM Session Start Time',
   ),
-  0x2AAB: UUIDAllocation(
+  0x2aab: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CGM Session Run Time',
   ),
-  0x2AAC: UUIDAllocation(
+  0x2aac: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CGM Specific Ops Control Point',
   ),
-  0x2AAD: UUIDAllocation(
+  0x2aad: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Indoor Positioning Configuration',
   ),
-  0x2AAE: UUIDAllocation(
+  0x2aae: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Latitude',
   ),
-  0x2AAF: UUIDAllocation(
+  0x2aaf: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Longitude',
   ),
-  0x2AB0: UUIDAllocation(
+  0x2ab0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Local North Coordinate',
   ),
-  0x2AB1: UUIDAllocation(
+  0x2ab1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Local East Coordinate',
   ),
-  0x2AB2: UUIDAllocation(
+  0x2ab2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Floor Number',
   ),
-  0x2AB3: UUIDAllocation(
+  0x2ab3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Altitude',
   ),
-  0x2AB4: UUIDAllocation(
+  0x2ab4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Uncertainty',
   ),
-  0x2AB5: UUIDAllocation(
+  0x2ab5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Location Name',
   ),
-  0x2AB6: UUIDAllocation(
+  0x2ab6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'URI',
   ),
-  0x2AB7: UUIDAllocation(
+  0x2ab7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'HTTP Headers',
   ),
-  0x2AB8: UUIDAllocation(
+  0x2ab8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'HTTP Status Code',
   ),
-  0x2AB9: UUIDAllocation(
+  0x2ab9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'HTTP Entity Body',
   ),
-  0x2ABA: UUIDAllocation(
+  0x2aba: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'HTTP Control Point',
   ),
-  0x2ABB: UUIDAllocation(
+  0x2abb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'HTTPS Security',
   ),
-  0x2ABC: UUIDAllocation(
+  0x2abc: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'TDS Control Point',
   ),
-  0x2ABD: UUIDAllocation(
+  0x2abd: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'OTS Feature',
   ),
-  0x2ABE: UUIDAllocation(
+  0x2abe: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object Name',
   ),
-  0x2ABF: UUIDAllocation(
+  0x2abf: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object Type',
   ),
-  0x2AC0: UUIDAllocation(
+  0x2ac0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object Size',
   ),
-  0x2AC1: UUIDAllocation(
+  0x2ac1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object First-Created',
   ),
-  0x2AC2: UUIDAllocation(
+  0x2ac2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object Last-Modified',
   ),
-  0x2AC3: UUIDAllocation(
+  0x2ac3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object ID',
   ),
-  0x2AC4: UUIDAllocation(
+  0x2ac4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object Properties',
   ),
-  0x2AC5: UUIDAllocation(
+  0x2ac5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object Action Control Point',
   ),
-  0x2AC6: UUIDAllocation(
+  0x2ac6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object List Control Point',
   ),
-  0x2AC7: UUIDAllocation(
+  0x2ac7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object List Filter',
   ),
-  0x2AC8: UUIDAllocation(
+  0x2ac8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Object Changed',
   ),
-  0x2AC9: UUIDAllocation(
+  0x2ac9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Resolvable Private Address Only',
   ),
-  0x2ACA: UUIDAllocation(
+  0x2aca: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Unspecified',
   ),
-  0x2ACB: UUIDAllocation(
+  0x2acb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Directory Listing',
   ),
-  0x2ACC: UUIDAllocation(
+  0x2acc: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fitness Machine Feature',
   ),
-  0x2ACD: UUIDAllocation(
+  0x2acd: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Treadmill Data',
   ),
-  0x2ACE: UUIDAllocation(
+  0x2ace: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Cross Trainer Data',
   ),
-  0x2ACF: UUIDAllocation(
+  0x2acf: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Step Climber Data',
   ),
-  0x2AD0: UUIDAllocation(
+  0x2ad0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Stair Climber Data',
   ),
-  0x2AD1: UUIDAllocation(
+  0x2ad1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Rower Data',
   ),
-  0x2AD2: UUIDAllocation(
+  0x2ad2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Indoor Bike Data',
   ),
-  0x2AD3: UUIDAllocation(
+  0x2ad3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Training Status',
   ),
-  0x2AD4: UUIDAllocation(
+  0x2ad4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported Speed Range',
   ),
-  0x2AD5: UUIDAllocation(
+  0x2ad5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported Inclination Range',
   ),
-  0x2AD6: UUIDAllocation(
+  0x2ad6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported Resistance Level Range',
   ),
-  0x2AD7: UUIDAllocation(
+  0x2ad7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported Heart Rate Range',
   ),
-  0x2AD8: UUIDAllocation(
+  0x2ad8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported Power Range',
   ),
-  0x2AD9: UUIDAllocation(
+  0x2ad9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fitness Machine Control Point',
   ),
-  0x2ADA: UUIDAllocation(
+  0x2ada: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fitness Machine Status',
   ),
-  0x2ADB: UUIDAllocation(
+  0x2adb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Mesh Provisioning Data In',
   ),
-  0x2ADC: UUIDAllocation(
+  0x2adc: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Mesh Provisioning Data Out',
   ),
-  0x2ADD: UUIDAllocation(
+  0x2add: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Mesh Proxy Data In',
   ),
-  0x2ADE: UUIDAllocation(
+  0x2ade: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Mesh Proxy Data Out',
   ),
-  0x2AE0: UUIDAllocation(
+  0x2ae0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Average Current',
   ),
-  0x2AE1: UUIDAllocation(
+  0x2ae1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Average Voltage',
   ),
-  0x2AE2: UUIDAllocation(
+  0x2ae2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Boolean',
   ),
-  0x2AE3: UUIDAllocation(
+  0x2ae3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Chromatic Distance From Planckian',
   ),
-  0x2AE4: UUIDAllocation(
+  0x2ae4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Chromaticity Coordinates',
   ),
-  0x2AE5: UUIDAllocation(
+  0x2ae5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Chromaticity In CCT And Duv Values',
   ),
-  0x2AE6: UUIDAllocation(
+  0x2ae6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Chromaticity Tolerance',
   ),
-  0x2AE7: UUIDAllocation(
+  0x2ae7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CIE 13.3-1995 Color Rendering Index',
   ),
-  0x2AE8: UUIDAllocation(
+  0x2ae8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Coefficient',
   ),
-  0x2AE9: UUIDAllocation(
+  0x2ae9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Correlated Color Temperature',
   ),
-  0x2AEA: UUIDAllocation(
+  0x2aea: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Count 16',
   ),
-  0x2AEB: UUIDAllocation(
+  0x2aeb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Count 24',
   ),
-  0x2AEC: UUIDAllocation(
+  0x2aec: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Country Code',
   ),
-  0x2AED: UUIDAllocation(
+  0x2aed: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Date UTC',
   ),
-  0x2AEE: UUIDAllocation(
+  0x2aee: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Electric Current',
   ),
-  0x2AEF: UUIDAllocation(
+  0x2aef: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Electric Current Range',
   ),
-  0x2AF0: UUIDAllocation(
+  0x2af0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Electric Current Specification',
   ),
-  0x2AF1: UUIDAllocation(
+  0x2af1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Electric Current Statistics',
   ),
-  0x2AF2: UUIDAllocation(
+  0x2af2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Energy',
   ),
-  0x2AF3: UUIDAllocation(
+  0x2af3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Energy In A Period Of Day',
   ),
-  0x2AF4: UUIDAllocation(
+  0x2af4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Event Statistics',
   ),
-  0x2AF5: UUIDAllocation(
+  0x2af5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fixed String 16',
   ),
-  0x2AF6: UUIDAllocation(
+  0x2af6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fixed String 24',
   ),
-  0x2AF7: UUIDAllocation(
+  0x2af7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fixed String 36',
   ),
-  0x2AF8: UUIDAllocation(
+  0x2af8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Fixed String 8',
   ),
-  0x2AF9: UUIDAllocation(
+  0x2af9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Generic Level',
   ),
-  0x2AFA: UUIDAllocation(
+  0x2afa: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Global Trade Item Number',
   ),
-  0x2AFB: UUIDAllocation(
+  0x2afb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Illuminance',
   ),
-  0x2AFC: UUIDAllocation(
+  0x2afc: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Luminous Efficacy',
   ),
-  0x2AFD: UUIDAllocation(
+  0x2afd: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Luminous Energy',
   ),
-  0x2AFE: UUIDAllocation(
+  0x2afe: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Luminous Exposure',
   ),
-  0x2AFF: UUIDAllocation(
+  0x2aff: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Luminous Flux',
   ),
-  0x2B00: UUIDAllocation(
+  0x2b00: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Luminous Flux Range',
   ),
-  0x2B01: UUIDAllocation(
+  0x2b01: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Luminous Intensity',
   ),
-  0x2B02: UUIDAllocation(
+  0x2b02: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Mass Flow',
   ),
-  0x2B03: UUIDAllocation(
+  0x2b03: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Perceived Lightness',
   ),
-  0x2B04: UUIDAllocation(
+  0x2b04: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Percentage 8',
   ),
-  0x2B05: UUIDAllocation(
+  0x2b05: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Power',
   ),
-  0x2B06: UUIDAllocation(
+  0x2b06: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Power Specification',
   ),
-  0x2B07: UUIDAllocation(
+  0x2b07: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Relative Runtime In A Current Range',
   ),
-  0x2B08: UUIDAllocation(
+  0x2b08: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Relative Runtime In A Generic Level Range',
   ),
-  0x2B09: UUIDAllocation(
+  0x2b09: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Relative Value In A Voltage Range',
   ),
-  0x2B0A: UUIDAllocation(
+  0x2b0a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Relative Value In An Illuminance Range',
   ),
-  0x2B0B: UUIDAllocation(
+  0x2b0b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Relative Value In A Period Of Day',
   ),
-  0x2B0C: UUIDAllocation(
+  0x2b0c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Relative Value In A Temperature Range',
   ),
-  0x2B0D: UUIDAllocation(
+  0x2b0d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature 8',
   ),
-  0x2B0E: UUIDAllocation(
+  0x2b0e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature 8 In A Period Of Day',
   ),
-  0x2B0F: UUIDAllocation(
+  0x2b0f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature 8 Statistics',
   ),
-  0x2B10: UUIDAllocation(
+  0x2b10: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature Range',
   ),
-  0x2B11: UUIDAllocation(
+  0x2b11: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Temperature Statistics',
   ),
-  0x2B12: UUIDAllocation(
+  0x2b12: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Decihour 8',
   ),
-  0x2B13: UUIDAllocation(
+  0x2b13: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Exponential 8',
   ),
-  0x2B14: UUIDAllocation(
+  0x2b14: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Hour 24',
   ),
-  0x2B15: UUIDAllocation(
+  0x2b15: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Millisecond 24',
   ),
-  0x2B16: UUIDAllocation(
+  0x2b16: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Second 16',
   ),
-  0x2B17: UUIDAllocation(
+  0x2b17: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Second 8',
   ),
-  0x2B18: UUIDAllocation(
+  0x2b18: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Voltage',
   ),
-  0x2B19: UUIDAllocation(
+  0x2b19: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Voltage Specification',
   ),
-  0x2B1A: UUIDAllocation(
+  0x2b1a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Voltage Statistics',
   ),
-  0x2B1B: UUIDAllocation(
+  0x2b1b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Volume Flow',
   ),
-  0x2B1C: UUIDAllocation(
+  0x2b1c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Chromaticity Coordinate',
   ),
-  0x2B1D: UUIDAllocation(
+  0x2b1d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'RC Feature',
   ),
-  0x2B1E: UUIDAllocation(
+  0x2b1e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'RC Settings',
   ),
-  0x2B1F: UUIDAllocation(
+  0x2b1f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Reconnection Configuration Control Point',
   ),
-  0x2B20: UUIDAllocation(
+  0x2b20: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Status Changed',
   ),
-  0x2B21: UUIDAllocation(
+  0x2b21: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Status',
   ),
-  0x2B22: UUIDAllocation(
+  0x2b22: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Annunciation Status',
   ),
-  0x2B23: UUIDAllocation(
+  0x2b23: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Features',
   ),
-  0x2B24: UUIDAllocation(
+  0x2b24: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Status Reader Control Point',
   ),
-  0x2B25: UUIDAllocation(
+  0x2b25: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Command Control Point',
   ),
-  0x2B26: UUIDAllocation(
+  0x2b26: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Command Data',
   ),
-  0x2B27: UUIDAllocation(
+  0x2b27: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD Record Access Control Point',
   ),
-  0x2B28: UUIDAllocation(
+  0x2b28: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'IDD History Data',
   ),
-  0x2B29: UUIDAllocation(
+  0x2b29: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Client Supported Features',
   ),
-  0x2B2A: UUIDAllocation(
+  0x2b2a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Database Hash',
   ),
-  0x2B2B: UUIDAllocation(
+  0x2b2b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'BSS Control Point',
   ),
-  0x2B2C: UUIDAllocation(
+  0x2b2c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'BSS Response',
   ),
-  0x2B2D: UUIDAllocation(
+  0x2b2d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Emergency ID',
   ),
-  0x2B2E: UUIDAllocation(
+  0x2b2e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Emergency Text',
   ),
-  0x2B34: UUIDAllocation(
+  0x2b34: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Enhanced Blood Pressure Measurement',
   ),
-  0x2B35: UUIDAllocation(
+  0x2b35: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Enhanced Intermediate Cuff Pressure',
   ),
-  0x2B36: UUIDAllocation(
+  0x2b36: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Blood Pressure Record',
   ),
-  0x2B38: UUIDAllocation(
+  0x2b38: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'BR-EDR Handover Data',
   ),
-  0x2B39: UUIDAllocation(
+  0x2b39: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bluetooth SIG Data',
   ),
-  0x2B3A: UUIDAllocation(
+  0x2b3a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Server Supported Features',
   ),
-  0x2B3B: UUIDAllocation(
+  0x2b3b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Physical Activity Monitor Features',
   ),
-  0x2B3C: UUIDAllocation(
+  0x2b3c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'General Activity Instantaneous Data',
   ),
-  0x2B3D: UUIDAllocation(
+  0x2b3d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'General Activity Summary Data',
   ),
-  0x2B3E: UUIDAllocation(
+  0x2b3e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CardioRespiratory Activity Instantaneous Data',
   ),
-  0x2B3F: UUIDAllocation(
+  0x2b3f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'CardioRespiratory Activity Summary Data',
   ),
-  0x2B40: UUIDAllocation(
+  0x2b40: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Step Counter Activity Summary Data',
   ),
-  0x2B41: UUIDAllocation(
+  0x2b41: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sleep Activity Instantaneous Data',
   ),
-  0x2B42: UUIDAllocation(
+  0x2b42: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sleep Activity Summary Data',
   ),
-  0x2B43: UUIDAllocation(
+  0x2b43: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Physical Activity Monitor Control Point',
   ),
-  0x2B44: UUIDAllocation(
+  0x2b44: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Activity Current Session',
   ),
-  0x2B45: UUIDAllocation(
+  0x2b45: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Physical Activity Session Descriptor',
   ),
-  0x2B46: UUIDAllocation(
+  0x2b46: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Preferred Units',
   ),
-  0x2B47: UUIDAllocation(
+  0x2b47: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'High Resolution Height',
   ),
-  0x2B48: UUIDAllocation(
+  0x2b48: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Middle Name',
   ),
-  0x2B49: UUIDAllocation(
+  0x2b49: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Stride Length',
   ),
-  0x2B4A: UUIDAllocation(
+  0x2b4a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Handedness',
   ),
-  0x2B4B: UUIDAllocation(
+  0x2b4b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Device Wearing Position',
   ),
-  0x2B4C: UUIDAllocation(
+  0x2b4c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Four Zone Heart Rate Limits',
   ),
-  0x2B4D: UUIDAllocation(
+  0x2b4d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'High Intensity Exercise Threshold',
   ),
-  0x2B4E: UUIDAllocation(
+  0x2b4e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Activity Goal',
   ),
-  0x2B4F: UUIDAllocation(
+  0x2b4f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sedentary Interval Notification',
   ),
-  0x2B50: UUIDAllocation(
+  0x2b50: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Caloric Intake',
   ),
-  0x2B51: UUIDAllocation(
+  0x2b51: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'TMAP Role',
   ),
-  0x2B77: UUIDAllocation(
+  0x2b77: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Audio Input State',
   ),
-  0x2B78: UUIDAllocation(
+  0x2b78: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Gain Settings Attribute',
   ),
-  0x2B79: UUIDAllocation(
+  0x2b79: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Audio Input Type',
   ),
-  0x2B7A: UUIDAllocation(
+  0x2b7a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Audio Input Status',
   ),
-  0x2B7B: UUIDAllocation(
+  0x2b7b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Audio Input Control Point',
   ),
-  0x2B7C: UUIDAllocation(
+  0x2b7c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Audio Input Description',
   ),
-  0x2B7D: UUIDAllocation(
+  0x2b7d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Volume State',
   ),
-  0x2B7E: UUIDAllocation(
+  0x2b7e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Volume Control Point',
   ),
-  0x2B7F: UUIDAllocation(
+  0x2b7f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Volume Flags',
   ),
-  0x2B80: UUIDAllocation(
+  0x2b80: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Volume Offset State',
   ),
-  0x2B81: UUIDAllocation(
+  0x2b81: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Audio Location',
   ),
-  0x2B82: UUIDAllocation(
+  0x2b82: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Volume Offset Control Point',
   ),
-  0x2B83: UUIDAllocation(
+  0x2b83: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Audio Output Description',
   ),
-  0x2B84: UUIDAllocation(
+  0x2b84: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Set Identity Resolving Key',
   ),
-  0x2B85: UUIDAllocation(
+  0x2b85: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Coordinated Set Size',
   ),
-  0x2B86: UUIDAllocation(
+  0x2b86: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Set Member Lock',
   ),
-  0x2B87: UUIDAllocation(
+  0x2b87: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Set Member Rank',
   ),
-  0x2B8E: UUIDAllocation(
+  0x2b8e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Device Time Feature',
   ),
-  0x2B8F: UUIDAllocation(
+  0x2b8f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Device Time Parameters',
   ),
-  0x2B90: UUIDAllocation(
+  0x2b90: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Device Time',
   ),
-  0x2B91: UUIDAllocation(
+  0x2b91: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Device Time Control Point',
   ),
-  0x2B92: UUIDAllocation(
+  0x2b92: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Time Change Log Data',
   ),
-  0x2B93: UUIDAllocation(
+  0x2b93: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Media Player Name',
   ),
-  0x2B94: UUIDAllocation(
+  0x2b94: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Media Player Icon Object ID',
   ),
-  0x2B95: UUIDAllocation(
+  0x2b95: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Media Player Icon URL',
   ),
-  0x2B96: UUIDAllocation(
+  0x2b96: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Track Changed',
   ),
-  0x2B97: UUIDAllocation(
+  0x2b97: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Track Title',
   ),
-  0x2B98: UUIDAllocation(
+  0x2b98: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Track Duration',
   ),
-  0x2B99: UUIDAllocation(
+  0x2b99: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Track Position',
   ),
-  0x2B9A: UUIDAllocation(
+  0x2b9a: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Playback Speed',
   ),
-  0x2B9B: UUIDAllocation(
+  0x2b9b: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Seeking Speed',
   ),
-  0x2B9C: UUIDAllocation(
+  0x2b9c: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Current Track Segments Object ID',
   ),
-  0x2B9D: UUIDAllocation(
+  0x2b9d: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Current Track Object ID',
   ),
-  0x2B9E: UUIDAllocation(
+  0x2b9e: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Next Track Object ID',
   ),
-  0x2B9F: UUIDAllocation(
+  0x2b9f: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Parent Group Object ID',
   ),
-  0x2BA0: UUIDAllocation(
+  0x2ba0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Current Group Object ID',
   ),
-  0x2BA1: UUIDAllocation(
+  0x2ba1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Playing Order',
   ),
-  0x2BA2: UUIDAllocation(
+  0x2ba2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Playing Orders Supported',
   ),
-  0x2BA3: UUIDAllocation(
+  0x2ba3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Media State',
   ),
-  0x2BA4: UUIDAllocation(
+  0x2ba4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Media Control Point',
   ),
-  0x2BA5: UUIDAllocation(
+  0x2ba5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Media Control Point Opcodes Supported',
   ),
-  0x2BA6: UUIDAllocation(
+  0x2ba6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Search Results Object ID',
   ),
-  0x2BA7: UUIDAllocation(
+  0x2ba7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Search Control Point',
   ),
-  0x2BA9: UUIDAllocation(
+  0x2ba9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Media Player Icon Object Type',
   ),
-  0x2BAA: UUIDAllocation(
+  0x2baa: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Track Segments Object Type',
   ),
-  0x2BAB: UUIDAllocation(
+  0x2bab: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Track Object Type',
   ),
-  0x2BAC: UUIDAllocation(
+  0x2bac: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Group Object Type',
   ),
-  0x2BAD: UUIDAllocation(
+  0x2bad: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Constant Tone Extension Enable',
   ),
-  0x2BAE: UUIDAllocation(
+  0x2bae: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Advertising Constant Tone Extension Minimum Length',
   ),
-  0x2BAF: UUIDAllocation(
+  0x2baf: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Advertising Constant Tone Extension Minimum Transmit Count',
   ),
-  0x2BB0: UUIDAllocation(
+  0x2bb0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Advertising Constant Tone Extension Transmit Duration',
   ),
-  0x2BB1: UUIDAllocation(
+  0x2bb1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Advertising Constant Tone Extension Interval',
   ),
-  0x2BB2: UUIDAllocation(
+  0x2bb2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Advertising Constant Tone Extension PHY',
   ),
-  0x2BB3: UUIDAllocation(
+  0x2bb3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bearer Provider Name',
   ),
-  0x2BB4: UUIDAllocation(
+  0x2bb4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bearer UCI',
   ),
-  0x2BB5: UUIDAllocation(
+  0x2bb5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bearer Technology',
   ),
-  0x2BB6: UUIDAllocation(
+  0x2bb6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bearer URI Schemes Supported List',
   ),
-  0x2BB7: UUIDAllocation(
+  0x2bb7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bearer Signal Strength',
   ),
-  0x2BB8: UUIDAllocation(
+  0x2bb8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bearer Signal Strength Reporting Interval',
   ),
-  0x2BB9: UUIDAllocation(
+  0x2bb9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Bearer List Current Calls',
   ),
-  0x2BBA: UUIDAllocation(
+  0x2bba: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Content Control ID',
   ),
-  0x2BBB: UUIDAllocation(
+  0x2bbb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Status Flags',
   ),
-  0x2BBC: UUIDAllocation(
+  0x2bbc: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Incoming Call Target Bearer URI',
   ),
-  0x2BBD: UUIDAllocation(
+  0x2bbd: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Call State',
   ),
-  0x2BBE: UUIDAllocation(
+  0x2bbe: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Call Control Point',
   ),
-  0x2BBF: UUIDAllocation(
+  0x2bbf: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Call Control Point Optional Opcodes',
   ),
-  0x2BC0: UUIDAllocation(
+  0x2bc0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Termination Reason',
   ),
-  0x2BC1: UUIDAllocation(
+  0x2bc1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Incoming Call',
   ),
-  0x2BC2: UUIDAllocation(
+  0x2bc2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Call Friendly Name',
   ),
-  0x2BC3: UUIDAllocation(
+  0x2bc3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Mute',
   ),
-  0x2BC4: UUIDAllocation(
+  0x2bc4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sink ASE',
   ),
-  0x2BC5: UUIDAllocation(
+  0x2bc5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Source ASE',
   ),
-  0x2BC6: UUIDAllocation(
+  0x2bc6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'ASE Control Point',
   ),
-  0x2BC7: UUIDAllocation(
+  0x2bc7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Broadcast Audio Scan Control Point',
   ),
-  0x2BC8: UUIDAllocation(
+  0x2bc8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Broadcast Receive State',
   ),
-  0x2BC9: UUIDAllocation(
+  0x2bc9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sink PAC',
   ),
-  0x2BCA: UUIDAllocation(
+  0x2bca: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sink Audio Locations',
   ),
-  0x2BCB: UUIDAllocation(
+  0x2bcb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Source PAC',
   ),
-  0x2BCC: UUIDAllocation(
+  0x2bcc: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Source Audio Locations',
   ),
-  0x2BCD: UUIDAllocation(
+  0x2bcd: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Available Audio Contexts',
   ),
-  0x2BCE: UUIDAllocation(
+  0x2bce: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Supported Audio Contexts',
   ),
-  0x2BCF: UUIDAllocation(
+  0x2bcf: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Ammonia Concentration',
   ),
-  0x2BD0: UUIDAllocation(
+  0x2bd0: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Carbon Monoxide Concentration',
   ),
-  0x2BD1: UUIDAllocation(
+  0x2bd1: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Methane Concentration',
   ),
-  0x2BD2: UUIDAllocation(
+  0x2bd2: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Nitrogen Dioxide Concentration',
   ),
-  0x2BD3: UUIDAllocation(
+  0x2bd3: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Non-Methane Volatile Organic Compounds Concentration',
   ),
-  0x2BD4: UUIDAllocation(
+  0x2bd4: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Ozone Concentration',
   ),
-  0x2BD5: UUIDAllocation(
+  0x2bd5: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Particulate Matter - PM1 Concentration',
   ),
-  0x2BD6: UUIDAllocation(
+  0x2bd6: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Particulate Matter - PM2.5 Concentration',
   ),
-  0x2BD7: UUIDAllocation(
+  0x2bd7: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Particulate Matter - PM10 Concentration',
   ),
-  0x2BD8: UUIDAllocation(
+  0x2bd8: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sulfur Dioxide Concentration',
   ),
-  0x2BD9: UUIDAllocation(
+  0x2bd9: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Sulfur Hexafluoride Concentration',
   ),
-  0x2BDA: UUIDAllocation(
+  0x2bda: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Hearing Aid Features',
   ),
-  0x2BDB: UUIDAllocation(
+  0x2bdb: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Hearing Aid Preset Control Point',
   ),
-  0x2BDC: UUIDAllocation(
+  0x2bdc: UUIDAllocation(
     type: 'GATT Characteristic and Object Type',
     registrant: 'Active Preset Index',
   ),
-  0xFCDD: UUIDAllocation(
+  0xfcdd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Mobilaris AB',
   ),
-  0xFCDE: UUIDAllocation(
+  0xfcde: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ARCTOP, INC.',
   ),
-  0xFCDF: UUIDAllocation(
+  0xfcdf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'NIO USA, Inc.',
   ),
-  0xFCE0: UUIDAllocation(
+  0xfce0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Akciju sabiedriba SAF TEHNIKA',
   ),
-  0xFCE1: UUIDAllocation(
+  0xfce1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sony Group Corporation',
   ),
-  0xFCE2: UUIDAllocation(
+  0xfce2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Baracoda Daily Healthtech',
   ),
-  0xFCE3: UUIDAllocation(
+  0xfce3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Smith & Nephew Medical Limited',
   ),
-  0xFCE4: UUIDAllocation(
+  0xfce4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsara Networks, Inc',
   ),
-  0xFCE5: UUIDAllocation(
+  0xfce5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsara Networks, Inc',
   ),
-  0xFCE6: UUIDAllocation(
+  0xfce6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Guard RFID Solutions Inc.',
   ),
-  0xFCE7: UUIDAllocation(
+  0xfce7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TKH Security B.V.',
   ),
-  0xFCE8: UUIDAllocation(
+  0xfce8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ITT Industries',
   ),
-  0xFCE9: UUIDAllocation(
+  0xfce9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'MindRhythm, Inc.',
   ),
-  0xFCEA: UUIDAllocation(
+  0xfcea: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Chess Wise B.V.',
   ),
-  0xFCEB: UUIDAllocation(
+  0xfceb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Avi-On',
   ),
-  0xFCEC: UUIDAllocation(
+  0xfcec: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Griffwerk GmbH',
   ),
-  0xFCED: UUIDAllocation(
+  0xfced: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Workaround Gmbh',
   ),
-  0xFCEE: UUIDAllocation(
+  0xfcee: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Velentium, LLC',
   ),
-  0xFCEF: UUIDAllocation(
+  0xfcef: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Divesoft s.r.o.',
   ),
-  0xFCF0: UUIDAllocation(
+  0xfcf0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Security Enhancement Systems, LLC',
   ),
-  0xFCF1: UUIDAllocation(
+  0xfcf1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFCF2: UUIDAllocation(
+  0xfcf2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bitwards Oy',
   ),
-  0xFCF3: UUIDAllocation(
+  0xfcf3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Armatura LLC',
   ),
-  0xFCF4: UUIDAllocation(
+  0xfcf4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Allegion',
   ),
-  0xFCF5: UUIDAllocation(
+  0xfcf5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Trident Communication Technology, LLC',
   ),
-  0xFCF6: UUIDAllocation(
+  0xfcf6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'The Linux Foundation',
   ),
-  0xFCF7: UUIDAllocation(
+  0xfcf7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Honor Device Co., Ltd.',
   ),
-  0xFCF8: UUIDAllocation(
+  0xfcf8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Honor Device Co., Ltd.',
   ),
-  0xFCF9: UUIDAllocation(
+  0xfcf9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Leupold & Stevens, Inc.',
   ),
-  0xFCFA: UUIDAllocation(
+  0xfcfa: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Leupold & Stevens, Inc.',
   ),
-  0xFCFB: UUIDAllocation(
+  0xfcfb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Shenzhen Benwei Media Co., Ltd.',
   ),
-  0xFCFC: UUIDAllocation(
+  0xfcfc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Barrot Technology Limited',
   ),
-  0xFCFD: UUIDAllocation(
+  0xfcfd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Barrot Technology Limited',
   ),
-  0xFCFE: UUIDAllocation(
+  0xfcfe: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sennheiser Consumer Audio GmbH',
   ),
-  0xFCFF: UUIDAllocation(
+  0xfcff: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: '701x',
   ),
-  0xFD00: UUIDAllocation(
+  0xfd00: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'FUTEK Advanced Sensor Technology, Inc.',
   ),
-  0xFD01: UUIDAllocation(
+  0xfd01: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sanvita Medical Corporation',
   ),
-  0xFD02: UUIDAllocation(
+  0xfd02: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LEGO System A/S',
   ),
-  0xFD03: UUIDAllocation(
+  0xfd03: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Quuppa Oy',
   ),
-  0xFD04: UUIDAllocation(
+  0xfd04: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Shure Inc.',
   ),
-  0xFD05: UUIDAllocation(
+  0xfd05: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qualcomm Technologies, Inc.',
   ),
-  0xFD06: UUIDAllocation(
+  0xfd06: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'RACE-AI LLC',
   ),
-  0xFD07: UUIDAllocation(
+  0xfd07: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Swedlock AB',
   ),
-  0xFD08: UUIDAllocation(
+  0xfd08: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bull Group Incorporated Company',
   ),
-  0xFD09: UUIDAllocation(
+  0xfd09: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Cousins and Sears LLC',
   ),
-  0xFD0A: UUIDAllocation(
+  0xfd0a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Luminostics, Inc.',
   ),
-  0xFD0B: UUIDAllocation(
+  0xfd0b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Luminostics, Inc.',
   ),
-  0xFD0C: UUIDAllocation(
+  0xfd0c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'OSM HK Limited',
   ),
-  0xFD0D: UUIDAllocation(
+  0xfd0d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Blecon Ltd',
   ),
-  0xFD0E: UUIDAllocation(
+  0xfd0e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'HerdDogg, Inc',
   ),
-  0xFD0F: UUIDAllocation(
+  0xfd0f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'AEON MOTOR CO.,LTD.',
   ),
-  0xFD10: UUIDAllocation(
+  0xfd10: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'AEON MOTOR CO.,LTD.',
   ),
-  0xFD11: UUIDAllocation(
+  0xfd11: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'AEON MOTOR CO.,LTD.',
   ),
-  0xFD12: UUIDAllocation(
+  0xfd12: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'AEON MOTOR CO.,LTD.',
   ),
-  0xFD13: UUIDAllocation(
+  0xfd13: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'BRG Sports, Inc.',
   ),
-  0xFD14: UUIDAllocation(
+  0xfd14: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'BRG Sports, Inc.',
   ),
-  0xFD15: UUIDAllocation(
+  0xfd15: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Panasonic Corporation',
   ),
-  0xFD16: UUIDAllocation(
+  0xfd16: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sensitech, Inc.',
   ),
-  0xFD17: UUIDAllocation(
+  0xfd17: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LEGIC Identsystems AG',
   ),
-  0xFD18: UUIDAllocation(
+  0xfd18: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LEGIC Identsystems AG',
   ),
-  0xFD19: UUIDAllocation(
+  0xfd19: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Smith & Nephew Medical Limited',
   ),
-  0xFD1A: UUIDAllocation(
+  0xfd1a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CSIRO',
   ),
-  0xFD1B: UUIDAllocation(
+  0xfd1b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Helios Sports, Inc.',
   ),
-  0xFD1C: UUIDAllocation(
+  0xfd1c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Brady Worldwide Inc.',
   ),
-  0xFD1D: UUIDAllocation(
+  0xfd1d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd',
   ),
-  0xFD1E: UUIDAllocation(
+  0xfd1e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Plume Design Inc.',
   ),
-  0xFD1F: UUIDAllocation(
+  0xfd1f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: '3M',
   ),
-  0xFD20: UUIDAllocation(
+  0xfd20: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GN Hearing A/S',
   ),
-  0xFD21: UUIDAllocation(
+  0xfd21: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd.',
   ),
-  0xFD22: UUIDAllocation(
+  0xfd22: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd.',
   ),
-  0xFD23: UUIDAllocation(
+  0xfd23: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'DOM Sicherheitstechnik GmbH & Co. KG',
   ),
-  0xFD24: UUIDAllocation(
+  0xfd24: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GD Midea Air-Conditioning Equipment Co., Ltd.',
   ),
-  0xFD25: UUIDAllocation(
+  0xfd25: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GD Midea Air-Conditioning Equipment Co., Ltd.',
   ),
-  0xFD26: UUIDAllocation(
+  0xfd26: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Novo Nordisk A/S',
   ),
-  0xFD27: UUIDAllocation(
+  0xfd27: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'i2Systems',
   ),
-  0xFD28: UUIDAllocation(
+  0xfd28: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Julius Blum GmbH',
   ),
-  0xFD29: UUIDAllocation(
+  0xfd29: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Asahi Kasei Corporation',
   ),
-  0xFD2A: UUIDAllocation(
+  0xfd2a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sony Corporation',
   ),
-  0xFD2B: UUIDAllocation(
+  0xfd2b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'The Access Technologies',
   ),
-  0xFD2C: UUIDAllocation(
+  0xfd2c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'The Access Technologies',
   ),
-  0xFD2D: UUIDAllocation(
+  0xfd2d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Xiaomi Inc.',
   ),
-  0xFD2E: UUIDAllocation(
+  0xfd2e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bitstrata Systems Inc.',
   ),
-  0xFD2F: UUIDAllocation(
+  0xfd2f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bitstrata Systems Inc.',
   ),
-  0xFD30: UUIDAllocation(
+  0xfd30: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sesam Solutions BV',
   ),
-  0xFD31: UUIDAllocation(
+  0xfd31: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LG Electronics Inc.',
   ),
-  0xFD32: UUIDAllocation(
+  0xfd32: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Gemalto Holding BV',
   ),
-  0xFD33: UUIDAllocation(
+  0xfd33: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'DashLogic, Inc.',
   ),
-  0xFD34: UUIDAllocation(
+  0xfd34: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Aerosens LLC.',
   ),
-  0xFD35: UUIDAllocation(
+  0xfd35: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Transsion Holdings Limited',
   ),
-  0xFD36: UUIDAllocation(
+  0xfd36: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFD37: UUIDAllocation(
+  0xfd37: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TireCheck GmbH',
   ),
-  0xFD38: UUIDAllocation(
+  0xfd38: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Danfoss A/S',
   ),
-  0xFD39: UUIDAllocation(
+  0xfd39: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'PREDIKTAS',
   ),
-  0xFD3A: UUIDAllocation(
+  0xfd3a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Verkada Inc.',
   ),
-  0xFD3B: UUIDAllocation(
+  0xfd3b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Verkada Inc.',
   ),
-  0xFD3C: UUIDAllocation(
+  0xfd3c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Redline Communications Inc.',
   ),
-  0xFD3D: UUIDAllocation(
+  0xfd3d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Woan Technology (Shenzhen) Co., Ltd.',
   ),
-  0xFD3E: UUIDAllocation(
+  0xfd3e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Pure Watercraft, inc.',
   ),
-  0xFD3F: UUIDAllocation(
+  0xfd3f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Cognosos, Inc',
   ),
-  0xFD40: UUIDAllocation(
+  0xfd40: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Beflex Inc.',
   ),
-  0xFD41: UUIDAllocation(
+  0xfd41: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Amazon Lab126',
   ),
-  0xFD42: UUIDAllocation(
+  0xfd42: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Globe (Jiangsu) Co.,Ltd',
   ),
-  0xFD43: UUIDAllocation(
+  0xfd43: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple Inc.',
   ),
-  0xFD44: UUIDAllocation(
+  0xfd44: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple Inc.',
   ),
-  0xFD45: UUIDAllocation(
+  0xfd45: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GB Solution co.,Ltd',
   ),
-  0xFD46: UUIDAllocation(
+  0xfd46: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Lemco IKE',
   ),
-  0xFD47: UUIDAllocation(
+  0xfd47: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Liberty Global Inc.',
   ),
-  0xFD48: UUIDAllocation(
+  0xfd48: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Geberit International AG',
   ),
-  0xFD49: UUIDAllocation(
+  0xfd49: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Panasonic Corporation',
   ),
-  0xFD4A: UUIDAllocation(
+  0xfd4a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sigma Elektro GmbH',
   ),
-  0xFD4B: UUIDAllocation(
+  0xfd4b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd.',
   ),
-  0xFD4C: UUIDAllocation(
+  0xfd4c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Adolf Wuerth GmbH & Co KG',
   ),
-  0xFD4D: UUIDAllocation(
+  0xfd4d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: '70mai Co.,Ltd.',
   ),
-  0xFD4E: UUIDAllocation(
+  0xfd4e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: '70mai Co.,Ltd.',
   ),
-  0xFD4F: UUIDAllocation(
+  0xfd4f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Forkbeard Technologies AS',
   ),
-  0xFD50: UUIDAllocation(
+  0xfd50: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Hangzhou Tuya Information  Technology Co., Ltd',
   ),
-  0xFD51: UUIDAllocation(
+  0xfd51: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'UTC Fire and Security',
   ),
-  0xFD52: UUIDAllocation(
+  0xfd52: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'UTC Fire and Security',
   ),
-  0xFD53: UUIDAllocation(
+  0xfd53: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'PCI Private Limited',
   ),
-  0xFD54: UUIDAllocation(
+  0xfd54: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qingdao Haier Technology Co., Ltd.',
   ),
-  0xFD55: UUIDAllocation(
+  0xfd55: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Braveheart Wireless, Inc.',
   ),
-  0xFD56: UUIDAllocation(
+  0xfd56: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Resmed Ltd',
   ),
-  0xFD57: UUIDAllocation(
+  0xfd57: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Volvo Car Corporation',
   ),
-  0xFD58: UUIDAllocation(
+  0xfd58: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Volvo Car Corporation',
   ),
-  0xFD59: UUIDAllocation(
+  0xfd59: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd.',
   ),
-  0xFD5A: UUIDAllocation(
+  0xfd5a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd.',
   ),
-  0xFD5B: UUIDAllocation(
+  0xfd5b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'V2SOFT INC.',
   ),
-  0xFD5C: UUIDAllocation(
+  0xfd5c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'React Mobile',
   ),
-  0xFD5D: UUIDAllocation(
+  0xfd5d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'maxon motor ltd.',
   ),
-  0xFD5E: UUIDAllocation(
+  0xfd5e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tapkey GmbH',
   ),
-  0xFD5F: UUIDAllocation(
+  0xfd5f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Oculus VR, LLC',
   ),
-  0xFD60: UUIDAllocation(
+  0xfd60: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sercomm Corporation',
   ),
-  0xFD61: UUIDAllocation(
+  0xfd61: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Arendi AG',
   ),
-  0xFD62: UUIDAllocation(
+  0xfd62: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Fitbit, Inc.',
   ),
-  0xFD63: UUIDAllocation(
+  0xfd63: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Fitbit, Inc.',
   ),
-  0xFD64: UUIDAllocation(
+  0xfd64: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'INRIA',
   ),
-  0xFD65: UUIDAllocation(
+  0xfd65: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Razer Inc.',
   ),
-  0xFD66: UUIDAllocation(
+  0xfd66: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Zebra Technologies Corporation',
   ),
-  0xFD67: UUIDAllocation(
+  0xfd67: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Montblanc Simplo GmbH',
   ),
-  0xFD68: UUIDAllocation(
+  0xfd68: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Ubique Innovation AG',
   ),
-  0xFD69: UUIDAllocation(
+  0xfd69: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd',
   ),
-  0xFD6A: UUIDAllocation(
+  0xfd6a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Emerson',
   ),
-  0xFD6B: UUIDAllocation(
+  0xfd6b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'rapitag GmbH',
   ),
-  0xFD6C: UUIDAllocation(
+  0xfd6c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd.',
   ),
-  0xFD6D: UUIDAllocation(
+  0xfd6d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sigma Elektro GmbH',
   ),
-  0xFD6E: UUIDAllocation(
+  0xfd6e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Polidea sp. z o.o.',
   ),
-  0xFD6F: UUIDAllocation(
+  0xfd6f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFD70: UUIDAllocation(
+  0xfd70: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GuangDong Oppo Mobile Telecommunications Corp., Ltd',
   ),
-  0xFD71: UUIDAllocation(
+  0xfd71: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GN Hearing A/S',
   ),
-  0xFD72: UUIDAllocation(
+  0xfd72: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Logitech International SA',
   ),
-  0xFD73: UUIDAllocation(
+  0xfd73: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'BRControls Products BV',
   ),
-  0xFD74: UUIDAllocation(
+  0xfd74: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'BRControls Products BV',
   ),
-  0xFD75: UUIDAllocation(
+  0xfd75: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Insulet Corporation',
   ),
-  0xFD76: UUIDAllocation(
+  0xfd76: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Insulet Corporation',
   ),
-  0xFD77: UUIDAllocation(
+  0xfd77: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Withings',
   ),
-  0xFD78: UUIDAllocation(
+  0xfd78: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Withings',
   ),
-  0xFD79: UUIDAllocation(
+  0xfd79: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Withings',
   ),
-  0xFD7A: UUIDAllocation(
+  0xfd7a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Withings',
   ),
-  0xFD7B: UUIDAllocation(
+  0xfd7b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'WYZE LABS, INC.',
   ),
-  0xFD7C: UUIDAllocation(
+  0xfd7c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Toshiba Information Systems(Japan) Corporation',
   ),
-  0xFD7D: UUIDAllocation(
+  0xfd7d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Center for Advanced Research Wernher Von Braun',
   ),
-  0xFD7E: UUIDAllocation(
+  0xfd7e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd.',
   ),
-  0xFD7F: UUIDAllocation(
+  0xfd7f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Husqvarna AB',
   ),
-  0xFD80: UUIDAllocation(
+  0xfd80: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Phindex Technologies, Inc',
   ),
-  0xFD81: UUIDAllocation(
+  0xfd81: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CANDY HOUSE, Inc.',
   ),
-  0xFD82: UUIDAllocation(
+  0xfd82: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sony Corporation',
   ),
-  0xFD83: UUIDAllocation(
+  0xfd83: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'iNFORM Technology GmbH',
   ),
-  0xFD84: UUIDAllocation(
+  0xfd84: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tile, Inc.',
   ),
-  0xFD85: UUIDAllocation(
+  0xfd85: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Husqvarna AB',
   ),
-  0xFD86: UUIDAllocation(
+  0xfd86: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Abbott',
   ),
-  0xFD87: UUIDAllocation(
+  0xfd87: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFD88: UUIDAllocation(
+  0xfd88: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Urbanminded LTD',
   ),
-  0xFD89: UUIDAllocation(
+  0xfd89: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Urbanminded LTD',
   ),
-  0xFD8A: UUIDAllocation(
+  0xfd8a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Signify Netherlands B.V.',
   ),
-  0xFD8B: UUIDAllocation(
+  0xfd8b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Jigowatts Inc.',
   ),
-  0xFD8C: UUIDAllocation(
+  0xfd8c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFD8D: UUIDAllocation(
+  0xfd8d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'quip NYC Inc.',
   ),
-  0xFD8E: UUIDAllocation(
+  0xfd8e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Motorola Solutions',
   ),
-  0xFD8F: UUIDAllocation(
+  0xfd8f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Matrix ComSec Pvt. Ltd.',
   ),
-  0xFD90: UUIDAllocation(
+  0xfd90: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Guangzhou SuperSound Information Technology Co.,Ltd',
   ),
-  0xFD91: UUIDAllocation(
+  0xfd91: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Groove X, Inc.',
   ),
-  0xFD92: UUIDAllocation(
+  0xfd92: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qualcomm Technologies International, Ltd. (QTIL)',
   ),
-  0xFD93: UUIDAllocation(
+  0xfd93: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bayerische Motoren Werke AG',
   ),
-  0xFD94: UUIDAllocation(
+  0xfd94: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Hewlett Packard Enterprise',
   ),
-  0xFD95: UUIDAllocation(
+  0xfd95: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Rigado',
   ),
-  0xFD96: UUIDAllocation(
+  0xfd96: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFD97: UUIDAllocation(
+  0xfd97: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'June Life, Inc.',
   ),
-  0xFD98: UUIDAllocation(
+  0xfd98: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Disney Worldwide Services, Inc.',
   ),
-  0xFD99: UUIDAllocation(
+  0xfd99: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ABB Oy',
   ),
-  0xFD9A: UUIDAllocation(
+  0xfd9a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd.',
   ),
-  0xFD9B: UUIDAllocation(
+  0xfd9b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd.',
   ),
-  0xFD9C: UUIDAllocation(
+  0xfd9c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd.',
   ),
-  0xFD9D: UUIDAllocation(
+  0xfd9d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Gastec Corporation',
   ),
-  0xFD9E: UUIDAllocation(
+  0xfd9e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'The Coca-Cola Company',
   ),
-  0xFD9F: UUIDAllocation(
+  0xfd9f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'VitalTech Affiliates LLC',
   ),
-  0xFDA0: UUIDAllocation(
+  0xfda0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Secugen Corporation',
   ),
-  0xFDA1: UUIDAllocation(
+  0xfda1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Groove X, Inc',
   ),
-  0xFDA2: UUIDAllocation(
+  0xfda2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Groove X, Inc',
   ),
-  0xFDA3: UUIDAllocation(
+  0xfda3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Inseego Corp.',
   ),
-  0xFDA4: UUIDAllocation(
+  0xfda4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Inseego Corp.',
   ),
-  0xFDA5: UUIDAllocation(
+  0xfda5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Neurostim OAB, Inc.',
   ),
-  0xFDA6: UUIDAllocation(
+  0xfda6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'WWZN Information Technology Company Limited',
   ),
-  0xFDA7: UUIDAllocation(
+  0xfda7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'WWZN Information Technology Company Limited',
   ),
-  0xFDA8: UUIDAllocation(
+  0xfda8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'PSA Peugeot Citroën',
   ),
-  0xFDA9: UUIDAllocation(
+  0xfda9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Rhombus Systems, Inc.',
   ),
-  0xFDAA: UUIDAllocation(
+  0xfdaa: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Xiaomi Inc.',
   ),
-  0xFDAB: UUIDAllocation(
+  0xfdab: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Xiaomi Inc.',
   ),
-  0xFDAC: UUIDAllocation(
+  0xfdac: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tentacle Sync GmbH',
   ),
-  0xFDAD: UUIDAllocation(
+  0xfdad: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Houwa System Design, k.k.',
   ),
-  0xFDAE: UUIDAllocation(
+  0xfdae: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Houwa System Design, k.k.',
   ),
-  0xFDAF: UUIDAllocation(
+  0xfdaf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Wiliot LTD',
   ),
-  0xFDB0: UUIDAllocation(
+  0xfdb0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Proxy Technologies, Inc.',
   ),
-  0xFDB1: UUIDAllocation(
+  0xfdb1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Proxy Technologies, Inc.',
   ),
-  0xFDB2: UUIDAllocation(
+  0xfdb2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Portable Multimedia Ltd',
   ),
-  0xFDB3: UUIDAllocation(
+  0xfdb3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Audiodo AB',
   ),
-  0xFDB4: UUIDAllocation(
+  0xfdb4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'HP Inc',
   ),
-  0xFDB5: UUIDAllocation(
+  0xfdb5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ECSG',
   ),
-  0xFDB6: UUIDAllocation(
+  0xfdb6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GWA Hygiene GmbH',
   ),
-  0xFDB7: UUIDAllocation(
+  0xfdb7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LivaNova USA Inc.',
   ),
-  0xFDB8: UUIDAllocation(
+  0xfdb8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LivaNova USA Inc.',
   ),
-  0xFDB9: UUIDAllocation(
+  0xfdb9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Comcast Cable Corporation',
   ),
-  0xFDBA: UUIDAllocation(
+  0xfdba: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Comcast Cable Corporation',
   ),
-  0xFDBB: UUIDAllocation(
+  0xfdbb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Profoto',
   ),
-  0xFDBC: UUIDAllocation(
+  0xfdbc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Emerson',
   ),
-  0xFDBD: UUIDAllocation(
+  0xfdbd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Clover Network, Inc.',
   ),
-  0xFDBE: UUIDAllocation(
+  0xfdbe: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'California Things Inc.',
   ),
-  0xFDBF: UUIDAllocation(
+  0xfdbf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'California Things Inc.',
   ),
-  0xFDC0: UUIDAllocation(
+  0xfdc0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Hunter Douglas',
   ),
-  0xFDC1: UUIDAllocation(
+  0xfdc1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Hunter Douglas',
   ),
-  0xFDC2: UUIDAllocation(
+  0xfdc2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Baidu Online Network Technology (Beijing) Co., Ltd',
   ),
-  0xFDC3: UUIDAllocation(
+  0xfdc3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Baidu Online Network Technology (Beijing) Co., Ltd',
   ),
-  0xFDC4: UUIDAllocation(
+  0xfdc4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Simavita (Aust) Pty Ltd',
   ),
-  0xFDC5: UUIDAllocation(
+  0xfdc5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Automatic Labs',
   ),
-  0xFDC6: UUIDAllocation(
+  0xfdc6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Eli Lilly and Company',
   ),
-  0xFDC7: UUIDAllocation(
+  0xfdc7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Eli Lilly and Company',
   ),
-  0xFDC8: UUIDAllocation(
+  0xfdc8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Hach – Danaher',
   ),
-  0xFDC9: UUIDAllocation(
+  0xfdc9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Busch-Jaeger Elektro GmbH',
   ),
-  0xFDCA: UUIDAllocation(
+  0xfdca: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Fortin Electronic Systems',
   ),
-  0xFDCB: UUIDAllocation(
+  0xfdcb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Meggitt SA',
   ),
-  0xFDCC: UUIDAllocation(
+  0xfdcc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Shoof Technologies',
   ),
-  0xFDCD: UUIDAllocation(
+  0xfdcd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qingping Technology (Beijing) Co., Ltd.',
   ),
-  0xFDCE: UUIDAllocation(
+  0xfdce: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SENNHEISER electronic GmbH & Co. KG',
   ),
-  0xFDCF: UUIDAllocation(
+  0xfdcf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nalu Medical, Inc',
   ),
-  0xFDD0: UUIDAllocation(
+  0xfdd0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd',
   ),
-  0xFDD1: UUIDAllocation(
+  0xfdd1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd',
   ),
-  0xFDD2: UUIDAllocation(
+  0xfdd2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bose Corporation',
   ),
-  0xFDD3: UUIDAllocation(
+  0xfdd3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'FUBA Automotive Electronics GmbH',
   ),
-  0xFDD4: UUIDAllocation(
+  0xfdd4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LX Solutions Pty Limited',
   ),
-  0xFDD5: UUIDAllocation(
+  0xfdd5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Brompton Bicycle Ltd',
   ),
-  0xFDD6: UUIDAllocation(
+  0xfdd6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Ministry of Supply',
   ),
-  0xFDD7: UUIDAllocation(
+  0xfdd7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Emerson',
   ),
-  0xFDD8: UUIDAllocation(
+  0xfdd8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Jiangsu Teranovo Tech Co., Ltd.',
   ),
-  0xFDD9: UUIDAllocation(
+  0xfdd9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Jiangsu Teranovo Tech Co., Ltd.',
   ),
-  0xFDDA: UUIDAllocation(
+  0xfdda: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'MHCS',
   ),
-  0xFDDB: UUIDAllocation(
+  0xfddb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsung Electronics Co., Ltd.',
   ),
-  0xFDDC: UUIDAllocation(
+  0xfddc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: '4iiii Innovations Inc.',
   ),
-  0xFDDD: UUIDAllocation(
+  0xfddd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Arch Systems Inc',
   ),
-  0xFDDE: UUIDAllocation(
+  0xfdde: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Noodle Technology Inc.',
   ),
-  0xFDDF: UUIDAllocation(
+  0xfddf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Harman International',
   ),
-  0xFDE0: UUIDAllocation(
+  0xfde0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'John Deere',
   ),
-  0xFDE1: UUIDAllocation(
+  0xfde1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Fortin Electronic Systems',
   ),
-  0xFDE2: UUIDAllocation(
+  0xfde2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFDE3: UUIDAllocation(
+  0xfde3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Abbott Diabetes Care',
   ),
-  0xFDE4: UUIDAllocation(
+  0xfde4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'JUUL Labs, Inc.',
   ),
-  0xFDE5: UUIDAllocation(
+  0xfde5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SMK Corporation',
   ),
-  0xFDE6: UUIDAllocation(
+  0xfde6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Intelletto Technologies Inc',
   ),
-  0xFDE7: UUIDAllocation(
+  0xfde7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SECOM Co., LTD',
   ),
-  0xFDE8: UUIDAllocation(
+  0xfde8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Robert Bosch GmbH',
   ),
-  0xFDE9: UUIDAllocation(
+  0xfde9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Spacesaver Corporation',
   ),
-  0xFDEA: UUIDAllocation(
+  0xfdea: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SeeScan, Inc',
   ),
-  0xFDEB: UUIDAllocation(
+  0xfdeb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Syntronix Corporation',
   ),
-  0xFDEC: UUIDAllocation(
+  0xfdec: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Mannkind Corporation',
   ),
-  0xFDED: UUIDAllocation(
+  0xfded: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Pole Star',
   ),
-  0xFDEE: UUIDAllocation(
+  0xfdee: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd.',
   ),
-  0xFDEF: UUIDAllocation(
+  0xfdef: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ART AND PROGRAM, INC.',
   ),
-  0xFDF0: UUIDAllocation(
+  0xfdf0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFDF1: UUIDAllocation(
+  0xfdf1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LAMPLIGHT Co.,Ltd',
   ),
-  0xFDF2: UUIDAllocation(
+  0xfdf2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'AMICCOM Electronics Corporation',
   ),
-  0xFDF3: UUIDAllocation(
+  0xfdf3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Amersports',
   ),
-  0xFDF4: UUIDAllocation(
+  0xfdf4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'O. E. M. Controls, Inc.',
   ),
-  0xFDF5: UUIDAllocation(
+  0xfdf5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Milwaukee Electric Tools',
   ),
-  0xFDF6: UUIDAllocation(
+  0xfdf6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'AIAIAI ApS',
   ),
-  0xFDF7: UUIDAllocation(
+  0xfdf7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'HP Inc.',
   ),
-  0xFDF8: UUIDAllocation(
+  0xfdf8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Onvocal',
   ),
-  0xFDF9: UUIDAllocation(
+  0xfdf9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'INIA',
   ),
-  0xFDFA: UUIDAllocation(
+  0xfdfa: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tandem Diabetes Care',
   ),
-  0xFDFB: UUIDAllocation(
+  0xfdfb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tandem Diabetes Care',
   ),
-  0xFDFC: UUIDAllocation(
+  0xfdfc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Optrel AG',
   ),
-  0xFDFD: UUIDAllocation(
+  0xfdfd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'RecursiveSoft Inc.',
   ),
-  0xFDFE: UUIDAllocation(
+  0xfdfe: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ADHERIUM(NZ) LIMITED',
   ),
-  0xFDFF: UUIDAllocation(
+  0xfdff: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'OSRAM GmbH',
   ),
-  0xFE00: UUIDAllocation(
+  0xfe00: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Amazon.com Services, Inc.',
   ),
-  0xFE01: UUIDAllocation(
+  0xfe01: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Duracell U.S. Operations Inc.',
   ),
-  0xFE02: UUIDAllocation(
+  0xfe02: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Robert Bosch GmbH',
   ),
-  0xFE03: UUIDAllocation(
+  0xfe03: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Amazon.com Services, Inc.',
   ),
-  0xFE04: UUIDAllocation(
+  0xfe04: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'OpenPath Security Inc',
   ),
-  0xFE05: UUIDAllocation(
+  0xfe05: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CORE Transport Technologies NZ Limited',
   ),
-  0xFE06: UUIDAllocation(
+  0xfe06: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qualcomm Technologies, Inc.',
   ),
-  0xFE07: UUIDAllocation(
+  0xfe07: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Sonos, Inc.',
   ),
-  0xFE08: UUIDAllocation(
+  0xfe08: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Microsoft',
   ),
-  0xFE09: UUIDAllocation(
+  0xfe09: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Pillsy, Inc.',
   ),
-  0xFE0A: UUIDAllocation(
+  0xfe0a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ruwido austria gmbh',
   ),
-  0xFE0B: UUIDAllocation(
+  0xfe0b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ruwido austria gmbh',
   ),
-  0xFE0C: UUIDAllocation(
+  0xfe0c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Procter & Gamble',
   ),
-  0xFE0D: UUIDAllocation(
+  0xfe0d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Procter & Gamble',
   ),
-  0xFE0E: UUIDAllocation(
+  0xfe0e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Setec Pty Ltd',
   ),
-  0xFE0F: UUIDAllocation(
+  0xfe0f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Signify Netherlands B.V. (formerly Philips Lighting B.V.)',
   ),
-  0xFE10: UUIDAllocation(
+  0xfe10: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LAPIS Technology Co., Ltd.',
   ),
-  0xFE11: UUIDAllocation(
+  0xfe11: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GMC-I Messtechnik GmbH',
   ),
-  0xFE12: UUIDAllocation(
+  0xfe12: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'M-Way Solutions GmbH',
   ),
-  0xFE13: UUIDAllocation(
+  0xfe13: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple Inc.',
   ),
-  0xFE14: UUIDAllocation(
+  0xfe14: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Flextronics International USA Inc.',
   ),
-  0xFE15: UUIDAllocation(
+  0xfe15: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Amazon.com Services, Inc..',
   ),
-  0xFE16: UUIDAllocation(
+  0xfe16: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Footmarks, Inc.',
   ),
-  0xFE17: UUIDAllocation(
+  0xfe17: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Telit Wireless Solutions GmbH',
   ),
-  0xFE18: UUIDAllocation(
+  0xfe18: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Runtime, Inc.',
   ),
-  0xFE19: UUIDAllocation(
+  0xfe19: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFE1A: UUIDAllocation(
+  0xfe1a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tyto Life LLC',
   ),
-  0xFE1B: UUIDAllocation(
+  0xfe1b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tyto Life LLC',
   ),
-  0xFE1C: UUIDAllocation(
+  0xfe1c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'NetMedia, Inc.',
   ),
-  0xFE1D: UUIDAllocation(
+  0xfe1d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Illuminati Instrument Corporation',
   ),
-  0xFE1E: UUIDAllocation(
+  0xfe1e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Smart Innovations Co., Ltd',
   ),
-  0xFE1F: UUIDAllocation(
+  0xfe1f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Garmin International, Inc.',
   ),
-  0xFE20: UUIDAllocation(
+  0xfe20: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Emerson',
   ),
-  0xFE21: UUIDAllocation(
+  0xfe21: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bose Corporation',
   ),
-  0xFE22: UUIDAllocation(
+  0xfe22: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Zoll Medical Corporation',
   ),
-  0xFE23: UUIDAllocation(
+  0xfe23: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Zoll Medical Corporation',
   ),
-  0xFE24: UUIDAllocation(
+  0xfe24: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'August Home Inc',
   ),
-  0xFE25: UUIDAllocation(
+  0xfe25: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFE26: UUIDAllocation(
+  0xfe26: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFE27: UUIDAllocation(
+  0xfe27: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFE28: UUIDAllocation(
+  0xfe28: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Ayla Networks',
   ),
-  0xFE29: UUIDAllocation(
+  0xfe29: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Gibson Innovations',
   ),
-  0xFE2A: UUIDAllocation(
+  0xfe2a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'DaisyWorks, Inc.',
   ),
-  0xFE2B: UUIDAllocation(
+  0xfe2b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ITT Industries',
   ),
-  0xFE2C: UUIDAllocation(
+  0xfe2c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFE2D: UUIDAllocation(
+  0xfe2d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SMART INNOVATION Co.,Ltd',
   ),
-  0xFE2E: UUIDAllocation(
+  0xfe2e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ERi,Inc.',
   ),
-  0xFE2F: UUIDAllocation(
+  0xfe2f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CRESCO Wireless, Inc',
   ),
-  0xFE30: UUIDAllocation(
+  0xfe30: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Volkswagen AG',
   ),
-  0xFE31: UUIDAllocation(
+  0xfe31: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Volkswagen AG',
   ),
-  0xFE32: UUIDAllocation(
+  0xfe32: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Pro-Mark, Inc.',
   ),
-  0xFE33: UUIDAllocation(
+  0xfe33: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CHIPOLO d.o.o.',
   ),
-  0xFE34: UUIDAllocation(
+  0xfe34: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SmallLoop LLC',
   ),
-  0xFE35: UUIDAllocation(
+  0xfe35: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd',
   ),
-  0xFE36: UUIDAllocation(
+  0xfe36: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd',
   ),
-  0xFE37: UUIDAllocation(
+  0xfe37: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Spaceek LTD',
   ),
-  0xFE38: UUIDAllocation(
+  0xfe38: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Spaceek LTD',
   ),
-  0xFE39: UUIDAllocation(
+  0xfe39: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TTS Tooltechnic Systems AG & Co. KG',
   ),
-  0xFE3A: UUIDAllocation(
+  0xfe3a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TTS Tooltechnic Systems AG & Co. KG',
   ),
-  0xFE3B: UUIDAllocation(
+  0xfe3b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Dolby Laboratories',
   ),
-  0xFE3C: UUIDAllocation(
+  0xfe3c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'alibaba',
   ),
-  0xFE3D: UUIDAllocation(
+  0xfe3d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'BD Medical',
   ),
-  0xFE3E: UUIDAllocation(
+  0xfe3e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'BD Medical',
   ),
-  0xFE3F: UUIDAllocation(
+  0xfe3f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Friday Labs Limited',
   ),
-  0xFE40: UUIDAllocation(
+  0xfe40: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Inugo Systems Limited',
   ),
-  0xFE41: UUIDAllocation(
+  0xfe41: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Inugo Systems Limited',
   ),
-  0xFE42: UUIDAllocation(
+  0xfe42: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nets A/S',
   ),
-  0xFE43: UUIDAllocation(
+  0xfe43: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Andreas Stihl AG & Co. KG',
   ),
-  0xFE44: UUIDAllocation(
+  0xfe44: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SK Telecom',
   ),
-  0xFE45: UUIDAllocation(
+  0xfe45: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Snapchat Inc',
   ),
-  0xFE46: UUIDAllocation(
+  0xfe46: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'B&O Play A/S',
   ),
-  0xFE47: UUIDAllocation(
+  0xfe47: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'General Motors',
   ),
-  0xFE48: UUIDAllocation(
+  0xfe48: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'General Motors',
   ),
-  0xFE49: UUIDAllocation(
+  0xfe49: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SenionLab AB',
   ),
-  0xFE4A: UUIDAllocation(
+  0xfe4a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'OMRON HEALTHCARE Co., Ltd.',
   ),
-  0xFE4B: UUIDAllocation(
+  0xfe4b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Signify Netherlands B.V. (formerly Philips Lighting B.V.)',
   ),
-  0xFE4C: UUIDAllocation(
+  0xfe4c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Volkswagen AG',
   ),
-  0xFE4D: UUIDAllocation(
+  0xfe4d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Casambi Technologies Oy',
   ),
-  0xFE4E: UUIDAllocation(
+  0xfe4e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'NTT docomo',
   ),
-  0xFE4F: UUIDAllocation(
+  0xfe4f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Molekule, Inc.',
   ),
-  0xFE50: UUIDAllocation(
+  0xfe50: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFE51: UUIDAllocation(
+  0xfe51: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SRAM',
   ),
-  0xFE52: UUIDAllocation(
+  0xfe52: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SetPoint Medical',
   ),
-  0xFE53: UUIDAllocation(
+  0xfe53: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: '3M',
   ),
-  0xFE54: UUIDAllocation(
+  0xfe54: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Motiv, Inc.',
   ),
-  0xFE55: UUIDAllocation(
+  0xfe55: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFE56: UUIDAllocation(
+  0xfe56: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFE57: UUIDAllocation(
+  0xfe57: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Dotted Labs',
   ),
-  0xFE58: UUIDAllocation(
+  0xfe58: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nordic Semiconductor ASA',
   ),
-  0xFE59: UUIDAllocation(
+  0xfe59: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nordic Semiconductor ASA',
   ),
-  0xFE5A: UUIDAllocation(
+  0xfe5a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Cronologics Corporation',
   ),
-  0xFE5B: UUIDAllocation(
+  0xfe5b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GT-tronics HK Ltd',
   ),
-  0xFE5C: UUIDAllocation(
+  0xfe5c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'million hunters GmbH',
   ),
-  0xFE5D: UUIDAllocation(
+  0xfe5d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Grundfos A/S',
   ),
-  0xFE5E: UUIDAllocation(
+  0xfe5e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Plastc Corporation',
   ),
-  0xFE5F: UUIDAllocation(
+  0xfe5f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Eyefi, Inc.',
   ),
-  0xFE60: UUIDAllocation(
+  0xfe60: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Lierda Science & Technology Group Co., Ltd.',
   ),
-  0xFE61: UUIDAllocation(
+  0xfe61: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Logitech International SA',
   ),
-  0xFE62: UUIDAllocation(
+  0xfe62: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Indagem Tech LLC',
   ),
-  0xFE63: UUIDAllocation(
+  0xfe63: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Connected Yard, Inc.',
   ),
-  0xFE64: UUIDAllocation(
+  0xfe64: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Siemens AG',
   ),
-  0xFE65: UUIDAllocation(
+  0xfe65: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CHIPOLO d.o.o.',
   ),
-  0xFE66: UUIDAllocation(
+  0xfe66: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Intel Corporation',
   ),
-  0xFE67: UUIDAllocation(
+  0xfe67: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Lab Sensor Solutions',
   ),
-  0xFE68: UUIDAllocation(
+  0xfe68: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qualcomm Life Inc',
   ),
-  0xFE69: UUIDAllocation(
+  0xfe69: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qualcomm Life Inc',
   ),
-  0xFE6A: UUIDAllocation(
+  0xfe6a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Kontakt Micro-Location Sp. z o.o.',
   ),
-  0xFE6B: UUIDAllocation(
+  0xfe6b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TASER International, Inc.',
   ),
-  0xFE6C: UUIDAllocation(
+  0xfe6c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TASER International, Inc.',
   ),
-  0xFE6D: UUIDAllocation(
+  0xfe6d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'The University of Tokyo',
   ),
-  0xFE6E: UUIDAllocation(
+  0xfe6e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'The University of Tokyo',
   ),
-  0xFE6F: UUIDAllocation(
+  0xfe6f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LINE Corporation',
   ),
-  0xFE70: UUIDAllocation(
+  0xfe70: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Beijing Jingdong Century Trading Co., Ltd.',
   ),
-  0xFE71: UUIDAllocation(
+  0xfe71: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Plume Design Inc',
   ),
-  0xFE72: UUIDAllocation(
+  0xfe72: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Abbott (formerly St. Jude Medical, Inc.)',
   ),
-  0xFE73: UUIDAllocation(
+  0xfe73: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Abbott (formerly St. Jude Medical, Inc.)',
   ),
-  0xFE74: UUIDAllocation(
+  0xfe74: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'unwire',
   ),
-  0xFE75: UUIDAllocation(
+  0xfe75: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TangoMe',
   ),
-  0xFE76: UUIDAllocation(
+  0xfe76: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TangoMe',
   ),
-  0xFE77: UUIDAllocation(
+  0xfe77: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Hewlett-Packard Company',
   ),
-  0xFE78: UUIDAllocation(
+  0xfe78: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Hewlett-Packard Company',
   ),
-  0xFE79: UUIDAllocation(
+  0xfe79: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Zebra Technologies',
   ),
-  0xFE7A: UUIDAllocation(
+  0xfe7a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bragi GmbH',
   ),
-  0xFE7B: UUIDAllocation(
+  0xfe7b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Orion Labs, Inc.',
   ),
-  0xFE7C: UUIDAllocation(
+  0xfe7c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Telit Wireless Solutions (Formerly Stollmann E+V GmbH)',
   ),
-  0xFE7D: UUIDAllocation(
+  0xfe7d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Aterica Health Inc.',
   ),
-  0xFE7E: UUIDAllocation(
+  0xfe7e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Awear Solutions Ltd',
   ),
-  0xFE7F: UUIDAllocation(
+  0xfe7f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Doppler Lab',
   ),
-  0xFE80: UUIDAllocation(
+  0xfe80: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Doppler Lab',
   ),
-  0xFE81: UUIDAllocation(
+  0xfe81: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Medtronic Inc.',
   ),
-  0xFE82: UUIDAllocation(
+  0xfe82: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Medtronic Inc.',
   ),
-  0xFE83: UUIDAllocation(
+  0xfe83: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Blue Bite',
   ),
-  0xFE84: UUIDAllocation(
+  0xfe84: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'RF Digital Corp',
   ),
-  0xFE85: UUIDAllocation(
+  0xfe85: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'RF Digital Corp',
   ),
-  0xFE86: UUIDAllocation(
+  0xfe86: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Huawei Technologies Co., Ltd.',
   ),
-  0xFE87: UUIDAllocation(
+  0xfe87: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Qingdao Yeelink Information Technology Co., Ltd.',
   ),
-  0xFE88: UUIDAllocation(
+  0xfe88: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'SALTO SYSTEMS S.L.',
   ),
-  0xFE89: UUIDAllocation(
+  0xfe89: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'B&O Play A/S',
   ),
-  0xFE8A: UUIDAllocation(
+  0xfe8a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFE8B: UUIDAllocation(
+  0xfe8b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFE8C: UUIDAllocation(
+  0xfe8c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'TRON Forum',
   ),
-  0xFE8D: UUIDAllocation(
+  0xfe8d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Interaxon Inc.',
   ),
-  0xFE8E: UUIDAllocation(
+  0xfe8e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ARM Ltd',
   ),
-  0xFE8F: UUIDAllocation(
+  0xfe8f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CSR',
   ),
-  0xFE90: UUIDAllocation(
+  0xfe90: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'JUMA',
   ),
-  0xFE91: UUIDAllocation(
+  0xfe91: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Shanghai Imilab Technology Co.,Ltd',
   ),
-  0xFE92: UUIDAllocation(
+  0xfe92: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Jarden Safety & Security',
   ),
-  0xFE93: UUIDAllocation(
+  0xfe93: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'OttoQ In',
   ),
-  0xFE94: UUIDAllocation(
+  0xfe94: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'OttoQ In',
   ),
-  0xFE95: UUIDAllocation(
+  0xfe95: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Xiaomi Inc.',
   ),
-  0xFE96: UUIDAllocation(
+  0xfe96: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tesla Motors Inc.',
   ),
-  0xFE97: UUIDAllocation(
+  0xfe97: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tesla Motors Inc.',
   ),
-  0xFE98: UUIDAllocation(
+  0xfe98: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Currant Inc',
   ),
-  0xFE99: UUIDAllocation(
+  0xfe99: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Currant Inc',
   ),
-  0xFE9A: UUIDAllocation(
+  0xfe9a: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Estimote',
   ),
-  0xFE9B: UUIDAllocation(
+  0xfe9b: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Samsara Networks, Inc',
   ),
-  0xFE9C: UUIDAllocation(
+  0xfe9c: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GSI Laboratories, Inc.',
   ),
-  0xFE9D: UUIDAllocation(
+  0xfe9d: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Mobiquity Networks Inc',
   ),
-  0xFE9E: UUIDAllocation(
+  0xfe9e: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Dialog Semiconductor B.V.',
   ),
-  0xFE9F: UUIDAllocation(
+  0xfe9f: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFEA0: UUIDAllocation(
+  0xfea0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFEA1: UUIDAllocation(
+  0xfea1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Intrepid Control Systems, Inc.',
   ),
-  0xFEA2: UUIDAllocation(
+  0xfea2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Intrepid Control Systems, Inc.',
   ),
-  0xFEA3: UUIDAllocation(
+  0xfea3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ITT Industries',
   ),
-  0xFEA4: UUIDAllocation(
+  0xfea4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Paxton Access Ltd',
   ),
-  0xFEA5: UUIDAllocation(
+  0xfea5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GoPro, Inc.',
   ),
-  0xFEA6: UUIDAllocation(
+  0xfea6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GoPro, Inc.',
   ),
-  0xFEA7: UUIDAllocation(
+  0xfea7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'UTC Fire and Security',
   ),
-  0xFEA8: UUIDAllocation(
+  0xfea8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Savant Systems LLC',
   ),
-  0xFEA9: UUIDAllocation(
+  0xfea9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Savant Systems LLC',
   ),
-  0xFEAA: UUIDAllocation(
+  0xfeaa: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFEAB: UUIDAllocation(
+  0xfeab: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nokia',
   ),
-  0xFEAC: UUIDAllocation(
+  0xfeac: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nokia',
   ),
-  0xFEAD: UUIDAllocation(
+  0xfead: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nokia',
   ),
-  0xFEAE: UUIDAllocation(
+  0xfeae: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nokia',
   ),
-  0xFEAF: UUIDAllocation(
+  0xfeaf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nest Labs Inc',
   ),
-  0xFEB0: UUIDAllocation(
+  0xfeb0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nest Labs Inc',
   ),
-  0xFEB1: UUIDAllocation(
+  0xfeb1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Electronics Tomorrow Limited',
   ),
-  0xFEB2: UUIDAllocation(
+  0xfeb2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Microsoft Corporation',
   ),
-  0xFEB3: UUIDAllocation(
+  0xfeb3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Taobao',
   ),
-  0xFEB4: UUIDAllocation(
+  0xfeb4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'WiSilica Inc.',
   ),
-  0xFEB5: UUIDAllocation(
+  0xfeb5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'WiSilica Inc.',
   ),
-  0xFEB6: UUIDAllocation(
+  0xfeb6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Vencer Co., Ltd',
   ),
-  0xFEB7: UUIDAllocation(
+  0xfeb7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Meta Platforms Inc.',
   ),
-  0xFEB8: UUIDAllocation(
+  0xfeb8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Meta Platforms Inc.',
   ),
-  0xFEB9: UUIDAllocation(
+  0xfeb9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'LG Electronics',
   ),
-  0xFEBA: UUIDAllocation(
+  0xfeba: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tencent Holdings Limited',
   ),
-  0xFEBB: UUIDAllocation(
+  0xfebb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'adafruit industries',
   ),
-  0xFEBC: UUIDAllocation(
+  0xfebc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Dexcom Inc',
   ),
-  0xFEBD: UUIDAllocation(
+  0xfebd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Clover Network, Inc',
   ),
-  0xFEBE: UUIDAllocation(
+  0xfebe: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Bose Corporation',
   ),
-  0xFEBF: UUIDAllocation(
+  0xfebf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nod, Inc.',
   ),
-  0xFEC0: UUIDAllocation(
+  0xfec0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'KDDI Corporation',
   ),
-  0xFEC1: UUIDAllocation(
+  0xfec1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'KDDI Corporation',
   ),
-  0xFEC2: UUIDAllocation(
+  0xfec2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Blue Spark Technologies, Inc.',
   ),
-  0xFEC3: UUIDAllocation(
+  0xfec3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: '360fly, Inc.',
   ),
-  0xFEC4: UUIDAllocation(
+  0xfec4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'PLUS Location Systems',
   ),
-  0xFEC5: UUIDAllocation(
+  0xfec5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Realtek Semiconductor Corp.',
   ),
-  0xFEC6: UUIDAllocation(
+  0xfec6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Kocomojo, LLC',
   ),
-  0xFEC7: UUIDAllocation(
+  0xfec7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFEC8: UUIDAllocation(
+  0xfec8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFEC9: UUIDAllocation(
+  0xfec9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFECA: UUIDAllocation(
+  0xfeca: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFECB: UUIDAllocation(
+  0xfecb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFECC: UUIDAllocation(
+  0xfecc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFECD: UUIDAllocation(
+  0xfecd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFECE: UUIDAllocation(
+  0xfece: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFECF: UUIDAllocation(
+  0xfecf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFED0: UUIDAllocation(
+  0xfed0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFED1: UUIDAllocation(
+  0xfed1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFED2: UUIDAllocation(
+  0xfed2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFED3: UUIDAllocation(
+  0xfed3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFED4: UUIDAllocation(
+  0xfed4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Apple, Inc.',
   ),
-  0xFED5: UUIDAllocation(
+  0xfed5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Plantronics Inc.',
   ),
-  0xFED6: UUIDAllocation(
+  0xfed6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Broadcom',
   ),
-  0xFED7: UUIDAllocation(
+  0xfed7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Broadcom',
   ),
-  0xFED8: UUIDAllocation(
+  0xfed8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFED9: UUIDAllocation(
+  0xfed9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Pebble Technology Corporation',
   ),
-  0xFEDA: UUIDAllocation(
+  0xfeda: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'ISSC Technologies Corp.',
   ),
-  0xFEDB: UUIDAllocation(
+  0xfedb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Perka, Inc.',
   ),
-  0xFEDC: UUIDAllocation(
+  0xfedc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Jawbone',
   ),
-  0xFEDD: UUIDAllocation(
+  0xfedd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Jawbone',
   ),
-  0xFEDE: UUIDAllocation(
+  0xfede: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Coin, Inc.',
   ),
-  0xFEDF: UUIDAllocation(
+  0xfedf: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Design SHIFT',
   ),
-  0xFEE0: UUIDAllocation(
+  0xfee0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Anhui Huami Information Technology Co., Ltd.',
   ),
-  0xFEE1: UUIDAllocation(
+  0xfee1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Anhui Huami Information Technology Co., Ltd.',
   ),
-  0xFEE2: UUIDAllocation(
+  0xfee2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Anki, Inc.',
   ),
-  0xFEE3: UUIDAllocation(
+  0xfee3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Anki, Inc.',
   ),
-  0xFEE4: UUIDAllocation(
+  0xfee4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nordic Semiconductor ASA',
   ),
-  0xFEE5: UUIDAllocation(
+  0xfee5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Nordic Semiconductor ASA',
   ),
-  0xFEE6: UUIDAllocation(
+  0xfee6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Silvair, Inc.',
   ),
-  0xFEE7: UUIDAllocation(
+  0xfee7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tencent Holdings Limited.',
   ),
-  0xFEE8: UUIDAllocation(
+  0xfee8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Quintic Corp.',
   ),
-  0xFEE9: UUIDAllocation(
+  0xfee9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Quintic Corp.',
   ),
-  0xFEEA: UUIDAllocation(
+  0xfeea: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Swirl Networks, Inc.',
   ),
-  0xFEEB: UUIDAllocation(
+  0xfeeb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Swirl Networks, Inc.',
   ),
-  0xFEEC: UUIDAllocation(
+  0xfeec: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tile, Inc.',
   ),
-  0xFEED: UUIDAllocation(
+  0xfeed: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Tile, Inc.',
   ),
-  0xFEEE: UUIDAllocation(
+  0xfeee: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Polar Electro Oy',
   ),
-  0xFEEF: UUIDAllocation(
+  0xfeef: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Polar Electro Oy',
   ),
-  0xFEF0: UUIDAllocation(
+  0xfef0: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Intel',
   ),
-  0xFEF1: UUIDAllocation(
+  0xfef1: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CSR',
   ),
-  0xFEF2: UUIDAllocation(
+  0xfef2: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'CSR',
   ),
-  0xFEF3: UUIDAllocation(
+  0xfef3: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFEF4: UUIDAllocation(
+  0xfef4: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Google LLC',
   ),
-  0xFEF5: UUIDAllocation(
+  0xfef5: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Dialog Semiconductor GmbH',
   ),
-  0xFEF6: UUIDAllocation(
+  0xfef6: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Wicentric, Inc.',
   ),
-  0xFEF7: UUIDAllocation(
+  0xfef7: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Aplix Corporation',
   ),
-  0xFEF8: UUIDAllocation(
+  0xfef8: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Aplix Corporation',
   ),
-  0xFEF9: UUIDAllocation(
+  0xfef9: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'PayPal, Inc.',
   ),
-  0xFEFA: UUIDAllocation(
+  0xfefa: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'PayPal, Inc.',
   ),
-  0xFEFB: UUIDAllocation(
+  0xfefb: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Telit Wireless Solutions (Formerly Stollmann E+V GmbH)',
   ),
-  0xFEFC: UUIDAllocation(
+  0xfefc: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Gimbal, Inc.',
   ),
-  0xFEFD: UUIDAllocation(
+  0xfefd: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'Gimbal, Inc.',
   ),
-  0xFEFE: UUIDAllocation(
+  0xfefe: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GN ReSound A/S',
   ),
-  0xFEFF: UUIDAllocation(
+  0xfeff: UUIDAllocation(
     type: '16-bit UUID for Members',
     registrant: 'GN Netcom',
   ),
-  0xFFF3: UUIDAllocation(
+  0xfff3: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'FiRa Consortium Service',
   ),
-  0xFFF4: UUIDAllocation(
+  0xfff4: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'FiRa Consortium Service',
   ),
-  0xFFF5: UUIDAllocation(
+  0xfff5: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'Car Connectivity Consortium, LLC Service',
   ),
-  0xFFF6: UUIDAllocation(
+  0xfff6: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'ZigBee Alliance Service',
   ),
-  0xFFF7: UUIDAllocation(
+  0xfff7: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'ZigBee Alliance Service',
   ),
-  0xFFF8: UUIDAllocation(
+  0xfff8: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'Mopria Alliance BLE Service',
   ),
-  0xFFF9: UUIDAllocation(
+  0xfff9: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'FIDO2 Secure Client-to-Authenticator Transport Service',
   ),
-  0xFFFA: UUIDAllocation(
+  0xfffa: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'ASTM Remote ID Service',
   ),
-  0xFFFB: UUIDAllocation(
+  0xfffb: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'Direct Thread Commissioning Service',
   ),
-  0xFFFC: UUIDAllocation(
+  0xfffc: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'Wireless Power Transfer (WPT) Service',
   ),
-  0xFFFD: UUIDAllocation(
+  0xfffd: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'Universal Second Factor Authenticator Service',
   ),
-  0xFFFE: UUIDAllocation(
+  0xfffe: UUIDAllocation(
     type: 'SDO GATT Service',
     registrant: 'Wireless Power Transfer Service',
   ),
