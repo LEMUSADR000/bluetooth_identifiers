@@ -1,3 +1,6 @@
+## [1.1.0] 9/22/22
+* Did cleanup after Python script additions. Minor formatting.
+
 ## [1.0.5] 9/22/22
 * Added python code generation scripts
 
