@@ -1,5 +1,5 @@
 part of '../bluetooth_identifiers.dart';
-            
+
 /// Company identifiers sourced from https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/
 ///
 /// From the above webpage:
@@ -81,7 +81,8 @@ const Map<int, String> _companyIdentifiers = {
   0x0037: 'Mobilian Corporation',
   0x0038: 'Syntronix Corporation',
   0x0039: 'Integrated System Solution Corp.',
-  0x003a: 'Panasonic Corporation (formerly Matsushita Electric Industrial Co., Ltd.)',
+  0x003a:
+      'Panasonic Corporation (formerly Matsushita Electric Industrial Co., Ltd.)',
   0x003b: 'Gennum Corporation',
   0x003c: 'BlackBerry Limited  (formerly Research In Motion)',
   0x003d: 'IPextreme, Inc.',
@@ -163,7 +164,8 @@ const Map<int, String> _companyIdentifiers = {
   0x0089: 'GN ReSound A/S',
   0x008a: 'Jawbone',
   0x008b: 'Topcon Positioning Systems, LLC',
-  0x008c: 'Gimbal Inc. (formerly Qualcomm Labs, Inc. and Qualcomm Retail Solutions, Inc.)',
+  0x008c:
+      'Gimbal Inc. (formerly Qualcomm Labs, Inc. and Qualcomm Retail Solutions, Inc.)',
   0x008d: 'Zscan Software',
   0x008e: 'Quintic Corp',
   0x008f: 'Telit Wireless Solutions GmbH (formerly Stollmann E+V GmbH)',
@@ -817,7 +819,8 @@ const Map<int, String> _companyIdentifiers = {
   0x0317: 'CHUO Electronics CO., LTD. ',
   0x0318: 'Aspenta International ',
   0x0319: 'Eugster Frismag AG ',
-  0x031a: 'Wurth Elektronik eiSos GmbH & Co. KG ( formerly Amber wireless GmbH) ',
+  0x031a:
+      'Wurth Elektronik eiSos GmbH & Co. KG ( formerly Amber wireless GmbH) ',
   0x031b: 'HQ Inc ',
   0x031c: 'Lab Sensor Solutions ',
   0x031d: 'Enterlab ApS ',
@@ -1181,7 +1184,8 @@ const Map<int, String> _companyIdentifiers = {
   0x0483: 'Multi Care Systems B.V.',
   0x0484: 'Revol Technologies Inc',
   0x0485: 'SKIDATA AG',
-  0x0486: 'DEV TECNOLOGIA INDUSTRIA, COMERCIO E MANUTENCAO DE EQUIPAMENTOS LTDA. - ME',
+  0x0486:
+      'DEV TECNOLOGIA INDUSTRIA, COMERCIO E MANUTENCAO DE EQUIPAMENTOS LTDA. - ME',
   0x0487: 'Centrica Connected Home',
   0x0488: 'Automotive Data Solutions Inc',
   0x0489: 'Igarashi Engineering',
@@ -1686,7 +1690,8 @@ const Map<int, String> _companyIdentifiers = {
   0x067c: 'Tile, Inc.',
   0x067d: 'Form Athletica Inc.',
   0x067e: 'MbientLab Inc',
-  0x067f: 'NETGRID S.N.C. DI BISSOLI MATTEO, CAMPOREALE SIMONE, TOGNETTI FEDERICO',
+  0x067f:
+      'NETGRID S.N.C. DI BISSOLI MATTEO, CAMPOREALE SIMONE, TOGNETTI FEDERICO',
   0x0680: 'Mannkind Corporation',
   0x0681: 'Trade FIDES a.s.',
   0x0682: 'Photron Limited',
@@ -2202,7 +2207,8 @@ const Map<int, String> _companyIdentifiers = {
   0x0881: 'Optalert',
   0x0882: 'PSYONIC, Inc.',
   0x0883: 'Wintersteiger AG',
-  0x0884: 'Controlid Industria, Comercio de Hardware e Servicos de Tecnologia Ltda',
+  0x0884:
+      'Controlid Industria, Comercio de Hardware e Servicos de Tecnologia Ltda',
   0x0885: 'LEVOLOR, INC.',
   0x0886: 'Xsens Technologies B.V.',
   0x0887: 'Hydro-Gear Limited Partnership',
@@ -2416,7 +2422,8 @@ const Map<int, String> _companyIdentifiers = {
   0x0957: 'Ohsung Electronics',
   0x0958: 'ZTE Corporation',
   0x0959: 'HerdDogg, Inc',
-  0x095a: 'Selekt Bilgisayar, lletisim Urunleri lnsaat Sanayi ve Ticaret Limited Sirketi',
+  0x095a:
+      'Selekt Bilgisayar, lletisim Urunleri lnsaat Sanayi ve Ticaret Limited Sirketi',
   0x095b: 'Lismore Instruments Limited',
   0x095c: 'LogiLube, LLC',
   0x095d: 'ETC',
@@ -2540,7 +2547,8 @@ const Map<int, String> _companyIdentifiers = {
   0x09d3: 'HeartHero, inc.',
   0x09d4: 'ORBIS Inc.',
   0x09d5: 'GEAR RADIO ELECTRONICS CORP.',
-  0x09d6: 'EAR TEKNIK ISITME VE ODIOMETRI CIHAZLARI SANAYI VE TICARET ANONIM SIRKETI',
+  0x09d6:
+      'EAR TEKNIK ISITME VE ODIOMETRI CIHAZLARI SANAYI VE TICARET ANONIM SIRKETI',
   0x09d7: 'Coyotta',
   0x09d8: 'Synergy Tecnologia em Sistemas Ltda',
   0x09d9: 'VivoSensMedical GmbH',
