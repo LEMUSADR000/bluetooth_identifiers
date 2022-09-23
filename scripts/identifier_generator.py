@@ -6,7 +6,7 @@ with open('../resources/identifiers.csv', newline='') as csvfile:
     with open("../lib/src/identifiers/company_identifiers.dart", "w") as f:
         f.write(
             '''part of '../bluetooth_identifiers.dart';
-            
+
 /// Company identifiers sourced from https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/
 ///
 /// From the above webpage:
