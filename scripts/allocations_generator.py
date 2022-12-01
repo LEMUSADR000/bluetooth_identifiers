@@ -25,9 +25,9 @@ with open('../resources/allocations.csv', newline='') as csvfile:
 const Map<int, UUIDAllocation> _uuidServiceIdentifiers = {
 ''')
 
-        spamreader = csv.reader(csvfile)
+        reader = csv.reader(csvfile)
 
-        for row in spamreader:
+        for row in reader:
             parsed = hex.Hex(row[0])
             service = row[1]
             registrant = row[2]
