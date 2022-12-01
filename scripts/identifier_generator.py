@@ -32,9 +32,9 @@ with open('../resources/identifiers.csv', newline='') as csvfile:
 const Map<int, String> _companyIdentifiers = {
 ''')
 
-        spamreader = csv.reader(csvfile)
+        reader = csv.reader(csvfile)
 
-        for row in spamreader:
+        for row in reader:
             parsed = hex.Hex(row[0])
             name = row[1]
 
