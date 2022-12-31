@@ -1,5 +1,6 @@
 ## [1.1.0] 9/22/22
 * Did cleanup after Python script additions. Minor formatting.
+* Removed flutter as a dependency allowing the library to be used in dart only projects.
 
 ## [1.0.5] 9/22/22
 * Added python code generation scripts
