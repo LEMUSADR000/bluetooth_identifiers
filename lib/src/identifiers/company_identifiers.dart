@@ -17,7 +17,7 @@ part of '../bluetooth_identifiers.dart';
 ///   equals 0x0001, refer toDevice ID Profile)
 /// * 802.11_PAL_Company_Identifier (refer to Bluetooth Core Specification v3.0 +
 ///   HS or later)
-/// * TCS Company ID (refer to Telephony Control Protocol [WITHDRAWN])
+/// * TCS Company ID (refer to Telephony Control Protocol)
 ///
 /// Each of the adopted specifications listed can be found on the Adopted
 /// Specifications Page, unless it is otherwise indicated as withdrawn.
